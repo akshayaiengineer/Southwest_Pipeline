@@ -1,0 +1,23 @@
+[
+    {
+        "airport_code": "DFW",
+        "airport_name": "Dallas Fort Worth International Airport",
+        "city": "Dallas",
+        "country": "USA",
+        "timezone": "America/Chicago"
+    },
+    {
+        "airport_code": "LAX",
+        "airport_name": "Los Angeles International Airport",
+        "city": "Los Angeles",
+        "country": "USA",
+        "timezone": "America/Los_Angeles"
+    },
+    {
+        "airport_code": "JFK",
+        "airport_name": "John F. Kennedy International Airport",
+        "city": "New York",
+        "country": "USA",
+        "timezone": "America/New_York"
+    }
+]

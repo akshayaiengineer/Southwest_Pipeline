@@ -4953,3 +4953,570 @@
 2026-07-21 23:23:33,693 | INFO | booking-consumer | Southwest booking consumer started | topic=southwest-booking-events | batch_size=10
 2026-07-21 23:24:01,424 | INFO | booking-consumer | Consumer shutdown requested
 2026-07-21 23:24:01,443 | INFO | booking-consumer | Kafka consumer stopped safely
+2026-07-25 11:39:41,060 | INFO | booking-consumer | Southwest booking consumer started | topic=southwest-booking-events | batch_size=10 | s3_bucket=data-pipeline-southwest
+2026-07-25 11:40:19,376 | INFO | booking-consumer | Consumer shutdown requested
+2026-07-25 11:40:19,408 | INFO | booking-consumer | Kafka consumer stopped safely
+2026-07-25 11:42:15,065 | INFO | booking-consumer | Southwest booking consumer started | topic=southwest-booking-events | batch_size=10 | s3_bucket=data-pipeline-southwest
+2026-07-25 11:43:04,407 | INFO | booking-consumer | Consumer shutdown requested
+2026-07-25 11:43:04,431 | INFO | booking-consumer | Kafka consumer stopped safely
+2026-07-25 11:43:08,147 | INFO | booking-producer | Southwest Kafka producer started
+2026-07-25 11:43:08,151 | INFO | booking-producer | Booking event submitted | count=1 | event_id=bd6ea13c-1ec3-4b62-9a05-9aad8f2761aa | booking_id=c044077d-c094-44ed-82fb-660a614cd174
+2026-07-25 11:43:10,153 | INFO | kafka-producer | Kafka delivery successful | topic=southwest-booking-events | partition=2 | offset=2146
+2026-07-25 11:43:10,153 | INFO | booking-producer | Booking event submitted | count=2 | event_id=aa5d5051-5215-4463-8505-5ab194f82043 | booking_id=2e141ce8-74a8-44d1-b9bd-035d0513b61e
+2026-07-25 11:43:12,154 | INFO | kafka-producer | Kafka delivery successful | topic=southwest-booking-events | partition=1 | offset=2133
+2026-07-25 11:43:12,155 | INFO | booking-producer | Booking event submitted | count=3 | event_id=e26a584b-a4c7-4fb4-a716-bb50211da57e | booking_id=2bd20c6b-b380-4e0c-9d04-463000bc3602
+2026-07-25 11:43:14,157 | INFO | kafka-producer | Kafka delivery successful | topic=southwest-booking-events | partition=0 | offset=2279
+2026-07-25 11:43:14,158 | INFO | booking-producer | Booking event submitted | count=4 | event_id=a3c1770c-8b04-4cb0-a998-168560034f2f | booking_id=34545fb6-0ac8-42e7-8b64-bab09f047ef4
+2026-07-25 11:43:16,161 | INFO | kafka-producer | Kafka delivery successful | topic=southwest-booking-events | partition=0 | offset=2280
+2026-07-25 11:43:16,161 | INFO | booking-producer | Booking event submitted | count=5 | event_id=c6981147-441b-44b4-95d7-cf9e3f3ae580 | booking_id=9f078b24-b369-404d-9424-ea8b56900137
+2026-07-25 11:43:18,162 | INFO | kafka-producer | Kafka delivery successful | topic=southwest-booking-events | partition=2 | offset=2147
+2026-07-25 11:43:18,163 | INFO | booking-producer | Booking event submitted | count=6 | event_id=36f58972-3ae9-4cfe-a732-db7465955508 | booking_id=bdb527e8-5336-4e54-af88-eb21961188b1
+2026-07-25 11:43:20,166 | INFO | kafka-producer | Kafka delivery successful | topic=southwest-booking-events | partition=2 | offset=2148
+2026-07-25 11:43:20,166 | INFO | booking-producer | Booking event submitted | count=7 | event_id=847b5d43-3e8d-4cce-8498-e61c8855cbb4 | booking_id=bb08d181-1ded-427a-8cc6-fdc85dea36a0
+2026-07-25 11:43:22,168 | INFO | kafka-producer | Kafka delivery successful | topic=southwest-booking-events | partition=2 | offset=2149
+2026-07-25 11:43:22,169 | INFO | booking-producer | Booking event submitted | count=8 | event_id=17e9692f-ed40-4524-962a-2e4d8be7f8cf | booking_id=d92c96a5-db0b-4872-8971-bbc9269f9d0e
+2026-07-25 11:43:24,171 | INFO | kafka-producer | Kafka delivery successful | topic=southwest-booking-events | partition=3 | offset=2146
+2026-07-25 11:43:24,172 | INFO | booking-producer | Booking event submitted | count=9 | event_id=9f648035-176d-4376-83aa-b53b80f28417 | booking_id=141fde4c-c902-4cce-beff-7cf4cf8837b8
+2026-07-25 11:43:26,174 | INFO | kafka-producer | Kafka delivery successful | topic=southwest-booking-events | partition=1 | offset=2134
+2026-07-25 11:43:26,174 | INFO | booking-producer | Booking event submitted | count=10 | event_id=2ed39cfe-b275-49e6-b40d-fcb39fac0b1c | booking_id=cd759ebd-aef0-44ba-a0ad-aaf121b93c8d
+2026-07-25 11:43:28,177 | INFO | kafka-producer | Kafka delivery successful | topic=southwest-booking-events | partition=2 | offset=2150
+2026-07-25 11:43:28,177 | INFO | booking-producer | Booking event submitted | count=11 | event_id=138e0d9f-5db0-44a0-b898-2baf29af9ccc | booking_id=775223b5-734e-43d3-9e8d-1f3d31de02dc
+2026-07-25 11:43:30,179 | INFO | kafka-producer | Kafka delivery successful | topic=southwest-booking-events | partition=0 | offset=2281
+2026-07-25 11:43:30,179 | INFO | booking-producer | Booking event submitted | count=12 | event_id=e569b634-3a14-4a58-a753-dce3bf5cdebd | booking_id=bbcb57e6-c66a-420e-9b39-87080a380220
+2026-07-25 11:43:32,181 | INFO | kafka-producer | Kafka delivery successful | topic=southwest-booking-events | partition=1 | offset=2135
+2026-07-25 11:43:32,181 | INFO | booking-producer | Booking event submitted | count=13 | event_id=8da6ee1a-63cc-4af4-bbb7-27c42faca701 | booking_id=f6488aa2-f9f6-4821-9ad4-88842f959d75
+2026-07-25 11:43:34,184 | INFO | kafka-producer | Kafka delivery successful | topic=southwest-booking-events | partition=1 | offset=2136
+2026-07-25 11:43:34,184 | INFO | booking-producer | Booking event submitted | count=14 | event_id=5e405202-c4c2-4633-8972-84daca8153ca | booking_id=c07af78d-7810-48d1-808a-82217b4bfccc
+2026-07-25 11:43:36,186 | INFO | kafka-producer | Kafka delivery successful | topic=southwest-booking-events | partition=0 | offset=2282
+2026-07-25 11:43:36,186 | INFO | booking-producer | Booking event submitted | count=15 | event_id=7efc47f6-82c4-4a9b-b8fb-63e5cae4f1ce | booking_id=cdbfbec7-900e-48af-826f-13febc088c0b
+2026-07-25 11:43:38,189 | INFO | kafka-producer | Kafka delivery successful | topic=southwest-booking-events | partition=2 | offset=2151
+2026-07-25 11:43:38,190 | INFO | booking-producer | Booking event submitted | count=16 | event_id=c5f677f4-215c-4067-82c7-b4199668216d | booking_id=3915a92d-7c87-49e3-aee8-132bde4b7164
+2026-07-25 11:43:40,192 | INFO | kafka-producer | Kafka delivery successful | topic=southwest-booking-events | partition=2 | offset=2152
+2026-07-25 11:43:40,193 | INFO | booking-producer | Booking event submitted | count=17 | event_id=4a50ebb2-190d-4ead-ab29-b94dcf295774 | booking_id=b3465d26-e38a-4ecb-9521-0d84b175d949
+2026-07-25 11:43:42,194 | INFO | kafka-producer | Kafka delivery successful | topic=southwest-booking-events | partition=1 | offset=2137
+2026-07-25 11:43:42,195 | INFO | booking-producer | Booking event submitted | count=18 | event_id=b5fd992b-182e-4473-a324-7812473803cc | booking_id=d7c29a43-4ecb-48c5-825b-c1af2888b042
+2026-07-25 11:43:44,197 | INFO | kafka-producer | Kafka delivery successful | topic=southwest-booking-events | partition=3 | offset=2147
+2026-07-25 11:43:44,198 | INFO | booking-producer | Booking event submitted | count=19 | event_id=08185f3e-43e3-440f-be11-ad8249a29db2 | booking_id=f88e6031-ce06-4405-95b2-dafff91ee32d
+2026-07-25 11:43:46,200 | INFO | kafka-producer | Kafka delivery successful | topic=southwest-booking-events | partition=0 | offset=2283
+2026-07-25 11:43:46,200 | INFO | booking-producer | Booking event submitted | count=20 | event_id=3eea2568-1150-41de-b80f-8e64db78800d | booking_id=db7a4fcc-7fc1-46f8-9a5b-c9c25f4fd271
+2026-07-25 11:43:48,202 | INFO | kafka-producer | Kafka delivery successful | topic=southwest-booking-events | partition=2 | offset=2153
+2026-07-25 11:43:48,203 | INFO | booking-producer | Booking event submitted | count=21 | event_id=47d50acf-4b2d-48e0-8459-f0e9fbeab92c | booking_id=11e9859e-079e-4c45-a333-8efbde6c7537
+2026-07-25 11:43:50,206 | INFO | kafka-producer | Kafka delivery successful | topic=southwest-booking-events | partition=3 | offset=2148
+2026-07-25 11:43:50,207 | INFO | booking-producer | Booking event submitted | count=22 | event_id=d66570d3-c7a0-46df-bfc5-2cd44bdc9dee | booking_id=f966271e-82b1-4b40-bade-e4f0955896e7
+2026-07-25 11:43:52,207 | INFO | kafka-producer | Kafka delivery successful | topic=southwest-booking-events | partition=3 | offset=2149
+2026-07-25 11:43:52,208 | INFO | booking-producer | Booking event submitted | count=23 | event_id=aa58abeb-5ccc-4b34-9975-6e2855d119a0 | booking_id=e9ee1225-c43e-4673-82d2-a9283902ca77
+2026-07-25 11:43:54,210 | INFO | kafka-producer | Kafka delivery successful | topic=southwest-booking-events | partition=0 | offset=2284
+2026-07-25 11:43:54,211 | INFO | booking-producer | Booking event submitted | count=24 | event_id=2e4f131b-8430-4ff7-b6af-f1073f9d6401 | booking_id=114a4aca-d4b8-4497-815e-96dcf618f452
+2026-07-25 11:43:56,213 | INFO | kafka-producer | Kafka delivery successful | topic=southwest-booking-events | partition=3 | offset=2150
+2026-07-25 11:43:56,214 | INFO | booking-producer | Booking event submitted | count=25 | event_id=5ca08777-61e9-4d69-b642-73f019dc3544 | booking_id=aafc8718-09e6-488b-bda6-1dff0c98641c
+2026-07-25 11:43:58,216 | INFO | kafka-producer | Kafka delivery successful | topic=southwest-booking-events | partition=2 | offset=2154
+2026-07-25 11:43:58,217 | INFO | booking-producer | Booking event submitted | count=26 | event_id=90a8614a-e27c-43ee-8d0b-184d841b2598 | booking_id=9a79a218-85f3-40ad-ae84-d8b54d919d27
+2026-07-25 11:44:00,219 | INFO | kafka-producer | Kafka delivery successful | topic=southwest-booking-events | partition=1 | offset=2138
+2026-07-25 11:44:00,219 | INFO | booking-producer | Booking event submitted | count=27 | event_id=01d8a5bd-c4f2-4cb0-96c5-99dd7f3a9d74 | booking_id=95a11c28-322b-40d8-9be0-28d0c7f0232a
+2026-07-25 11:44:02,221 | INFO | kafka-producer | Kafka delivery successful | topic=southwest-booking-events | partition=2 | offset=2155
+2026-07-25 11:44:02,222 | INFO | booking-producer | Booking event submitted | count=28 | event_id=e8141cf4-24e4-4e35-be65-8b152f76445a | booking_id=0f376136-6831-4997-95a1-db9bad952cef
+2026-07-25 11:44:04,224 | INFO | kafka-producer | Kafka delivery successful | topic=southwest-booking-events | partition=1 | offset=2139
+2026-07-25 11:44:04,224 | INFO | booking-producer | Booking event submitted | count=29 | event_id=6642bcd0-b03b-44ec-873e-572427bdf120 | booking_id=a5a7b910-111c-4ff5-bef3-477b74e75553
+2026-07-25 11:44:06,226 | INFO | kafka-producer | Kafka delivery successful | topic=southwest-booking-events | partition=0 | offset=2285
+2026-07-25 11:44:06,227 | INFO | booking-producer | Booking event submitted | count=30 | event_id=a8a01a68-1c20-4982-8871-9df0c099d1c3 | booking_id=4c8c13df-4d06-4a78-a70f-62136926f2b9
+2026-07-25 11:44:08,229 | INFO | kafka-producer | Kafka delivery successful | topic=southwest-booking-events | partition=2 | offset=2156
+2026-07-25 11:44:08,230 | INFO | booking-producer | Booking event submitted | count=31 | event_id=ce3517ee-59b7-4e09-86d5-d41d954e191b | booking_id=c9164fd9-b368-481b-a82f-677bfd701c9e
+2026-07-25 11:44:10,232 | INFO | kafka-producer | Kafka delivery successful | topic=southwest-booking-events | partition=0 | offset=2286
+2026-07-25 11:44:10,232 | INFO | booking-producer | Booking event submitted | count=32 | event_id=c2de5f76-cbba-4396-9193-63cfd5953b4c | booking_id=aaa0b12a-270f-4fdc-990e-207aabe09a4a
+2026-07-25 11:44:12,234 | INFO | kafka-producer | Kafka delivery successful | topic=southwest-booking-events | partition=1 | offset=2140
+2026-07-25 11:44:12,235 | INFO | booking-producer | Booking event submitted | count=33 | event_id=b9cb01ab-be14-4502-8e79-3e9703394b85 | booking_id=a0268d18-cfc8-4fbb-92be-8b3d4d320008
+2026-07-25 11:44:14,236 | INFO | kafka-producer | Kafka delivery successful | topic=southwest-booking-events | partition=1 | offset=2141
+2026-07-25 11:44:14,237 | INFO | booking-producer | Booking event submitted | count=34 | event_id=ee8cf52f-90c8-4dbb-a924-11c2d3c0379c | booking_id=4801d823-94e1-48ca-b0e6-2746ea45f6fb
+2026-07-25 11:44:16,239 | INFO | kafka-producer | Kafka delivery successful | topic=southwest-booking-events | partition=2 | offset=2157
+2026-07-25 11:44:16,240 | INFO | booking-producer | Booking event submitted | count=35 | event_id=9faa5114-7e7a-4524-989b-fe563163a80a | booking_id=82d17383-f9fa-4fb7-bfd3-b8656e7de281
+2026-07-25 11:44:18,243 | INFO | kafka-producer | Kafka delivery successful | topic=southwest-booking-events | partition=2 | offset=2158
+2026-07-25 11:44:18,243 | INFO | booking-producer | Booking event submitted | count=36 | event_id=a65e55f6-3ec5-4598-b4b1-2f27084c3ec7 | booking_id=126647d0-ace1-42cb-b459-ca896bf9106b
+2026-07-25 11:44:20,245 | INFO | kafka-producer | Kafka delivery successful | topic=southwest-booking-events | partition=1 | offset=2142
+2026-07-25 11:44:20,247 | INFO | booking-producer | Booking event submitted | count=37 | event_id=ee38ddfd-4fd2-4457-be70-298268376d83 | booking_id=72ae66c0-2bc7-4c36-b1ea-b087532752b1
+2026-07-25 11:44:22,248 | INFO | kafka-producer | Kafka delivery successful | topic=southwest-booking-events | partition=2 | offset=2159
+2026-07-25 11:44:22,249 | INFO | booking-producer | Booking event submitted | count=38 | event_id=01fbb1f8-a7d0-43e6-973d-9dd8335c340d | booking_id=f05cca99-e80b-483c-9997-0794db46a2b2
+2026-07-25 11:44:24,250 | INFO | kafka-producer | Kafka delivery successful | topic=southwest-booking-events | partition=0 | offset=2287
+2026-07-25 11:44:24,251 | INFO | booking-producer | Booking event submitted | count=39 | event_id=8950a080-63da-43a4-9c81-eebabe301673 | booking_id=baf5c6ec-6de7-4818-bd26-3ecee915e62e
+2026-07-25 11:44:26,254 | INFO | kafka-producer | Kafka delivery successful | topic=southwest-booking-events | partition=0 | offset=2288
+2026-07-25 11:44:26,254 | INFO | booking-producer | Booking event submitted | count=40 | event_id=31402b5b-034b-44b2-88a4-0a72f9cc6cdb | booking_id=374a7c06-b2bd-4b31-b7cc-02d2c6d7ac1d
+2026-07-25 11:44:28,255 | INFO | kafka-producer | Kafka delivery successful | topic=southwest-booking-events | partition=3 | offset=2151
+2026-07-25 11:44:28,256 | INFO | booking-producer | Booking event submitted | count=41 | event_id=a4385a1c-5493-45ff-8bf3-916d2cde69c5 | booking_id=21889ec3-0c89-4115-a902-b44686a1d7a6
+2026-07-25 11:44:30,258 | INFO | kafka-producer | Kafka delivery successful | topic=southwest-booking-events | partition=2 | offset=2160
+2026-07-25 11:44:30,259 | INFO | booking-producer | Booking event submitted | count=42 | event_id=438369fb-ce90-410c-a877-e11d7ca449cb | booking_id=6df0e751-0cf0-4599-8e1e-2dae8b1b53bd
+2026-07-25 11:44:32,261 | INFO | kafka-producer | Kafka delivery successful | topic=southwest-booking-events | partition=1 | offset=2143
+2026-07-25 11:44:32,261 | INFO | booking-producer | Booking event submitted | count=43 | event_id=1f961155-399f-4323-b65c-944fc6901c74 | booking_id=0f5ab064-61ab-4766-ab29-2ec2e09ac93f
+2026-07-25 11:44:34,263 | INFO | kafka-producer | Kafka delivery successful | topic=southwest-booking-events | partition=0 | offset=2289
+2026-07-25 11:44:34,265 | INFO | booking-producer | Booking event submitted | count=44 | event_id=057f7295-163d-4099-a591-9d63849d8320 | booking_id=cf96a75b-40ce-42de-b65b-4eecfcb5c080
+2026-07-25 11:44:36,266 | INFO | kafka-producer | Kafka delivery successful | topic=southwest-booking-events | partition=1 | offset=2144
+2026-07-25 11:44:36,268 | INFO | booking-producer | Booking event submitted | count=45 | event_id=cde4d12c-831a-4bda-81fd-52fcec4fdc48 | booking_id=505a034c-c499-47b4-99b0-280d306edb6e
+2026-07-25 11:44:38,269 | INFO | kafka-producer | Kafka delivery successful | topic=southwest-booking-events | partition=0 | offset=2290
+2026-07-25 11:44:38,270 | INFO | booking-producer | Booking event submitted | count=46 | event_id=587caa09-d5b3-48e0-b4de-541a58cc0b34 | booking_id=b4907275-f868-4edf-955c-eeb513889d4f
+2026-07-25 11:44:40,273 | INFO | kafka-producer | Kafka delivery successful | topic=southwest-booking-events | partition=1 | offset=2145
+2026-07-25 11:44:40,274 | INFO | booking-producer | Booking event submitted | count=47 | event_id=acb2c1d8-cdb0-4205-8491-7d8adc050e11 | booking_id=389a4468-6e8a-469b-9a87-4ad12b07c7f1
+2026-07-25 11:44:41,899 | INFO | booking-producer | Producer shutdown requested
+2026-07-25 11:44:41,900 | INFO | kafka-producer | Kafka delivery successful | topic=southwest-booking-events | partition=1 | offset=2146
+2026-07-25 11:44:41,901 | INFO | booking-producer | All queued Kafka messages were delivered
+2026-07-25 11:44:41,902 | INFO | booking-producer | Kafka producer stopped
+2026-07-25 11:45:11,088 | INFO | booking-consumer | Southwest booking consumer started | topic=southwest-booking-events | batch_size=10 | s3_bucket=data-pipeline-southwest
+2026-07-25 11:45:14,232 | INFO | booking-consumer | Event collected | batch=1/10 | partition=0 | offset=2279 | event_id=e26a584b-a4c7-4fb4-a716-bb50211da57e
+2026-07-25 11:45:14,233 | INFO | booking-consumer | Event collected | batch=2/10 | partition=0 | offset=2280 | event_id=a3c1770c-8b04-4cb0-a998-168560034f2f
+2026-07-25 11:45:14,233 | INFO | booking-consumer | Event collected | batch=3/10 | partition=0 | offset=2281 | event_id=138e0d9f-5db0-44a0-b898-2baf29af9ccc
+2026-07-25 11:45:14,234 | INFO | booking-consumer | Event collected | batch=4/10 | partition=0 | offset=2282 | event_id=5e405202-c4c2-4633-8972-84daca8153ca
+2026-07-25 11:45:14,234 | INFO | booking-consumer | Event collected | batch=5/10 | partition=0 | offset=2283 | event_id=08185f3e-43e3-440f-be11-ad8249a29db2
+2026-07-25 11:45:14,235 | INFO | booking-consumer | Event collected | batch=6/10 | partition=0 | offset=2284 | event_id=aa58abeb-5ccc-4b34-9975-6e2855d119a0
+2026-07-25 11:45:14,236 | INFO | booking-consumer | Event collected | batch=7/10 | partition=0 | offset=2285 | event_id=6642bcd0-b03b-44ec-873e-572427bdf120
+2026-07-25 11:45:14,236 | INFO | booking-consumer | Event collected | batch=8/10 | partition=0 | offset=2286 | event_id=ce3517ee-59b7-4e09-86d5-d41d954e191b
+2026-07-25 11:45:14,237 | INFO | booking-consumer | Event collected | batch=9/10 | partition=0 | offset=2287 | event_id=01fbb1f8-a7d0-43e6-973d-9dd8335c340d
+2026-07-25 11:45:14,239 | INFO | booking-consumer | Event collected | batch=10/10 | partition=0 | offset=2288 | event_id=8950a080-63da-43a4-9c81-eebabe301673
+2026-07-25 11:45:14,240 | INFO | booking-consumer | Processing Bronze batch | records=10
+2026-07-25 11:45:14,243 | INFO | file-writer | Bronze batch written locally | records=10 | file=data\bronze\booking_events_20260725_164514_503d107a9f3c43ffa2bf5c3bfbc432a2.jsonl
+2026-07-25 11:45:14,260 | INFO | file-compressor | File compressed successfully | input=data\bronze\booking_events_20260725_164514_503d107a9f3c43ffa2bf5c3bfbc432a2.jsonl | output=data\bronze\booking_events_20260725_164514_503d107a9f3c43ffa2bf5c3bfbc432a2.jsonl.gz
+2026-07-25 11:45:14,261 | INFO | booking-consumer | Bronze S3 key generated | key=bronze/year=2026/month=07/day=25/hour=16/booking_events_e05b44bef250426ab5d28ea2d80166d7.jsonl.gz
+2026-07-25 11:45:17,175 | INFO | s3-uploader | File uploaded successfully | local_file=data\bronze\booking_events_20260725_164514_503d107a9f3c43ffa2bf5c3bfbc432a2.jsonl.gz | s3_uri=s3://data-pipeline-southwest/bronze/year=2026/month=07/day=25/hour=16/booking_events_e05b44bef250426ab5d28ea2d80166d7.jsonl.gz
+2026-07-25 11:45:17,246 | INFO | booking-consumer | Bronze batch uploaded and offsets committed | records=10 | s3_uri=s3://data-pipeline-southwest/bronze/year=2026/month=07/day=25/hour=16/booking_events_e05b44bef250426ab5d28ea2d80166d7.jsonl.gz | offsets={0: 2289}
+2026-07-25 11:45:17,248 | INFO | booking-consumer | Event collected | batch=1/10 | partition=0 | offset=2289 | event_id=1f961155-399f-4323-b65c-944fc6901c74
+2026-07-25 11:45:17,249 | INFO | booking-consumer | Event collected | batch=2/10 | partition=0 | offset=2290 | event_id=cde4d12c-831a-4bda-81fd-52fcec4fdc48
+2026-07-25 11:45:17,251 | INFO | booking-consumer | Event collected | batch=3/10 | partition=1 | offset=2133 | event_id=aa5d5051-5215-4463-8505-5ab194f82043
+2026-07-25 11:45:17,252 | INFO | booking-consumer | Event collected | batch=4/10 | partition=1 | offset=2134 | event_id=9f648035-176d-4376-83aa-b53b80f28417
+2026-07-25 11:45:17,253 | INFO | booking-consumer | Event collected | batch=5/10 | partition=1 | offset=2135 | event_id=e569b634-3a14-4a58-a753-dce3bf5cdebd
+2026-07-25 11:45:17,253 | INFO | booking-consumer | Event collected | batch=6/10 | partition=1 | offset=2136 | event_id=8da6ee1a-63cc-4af4-bbb7-27c42faca701
+2026-07-25 11:45:17,254 | INFO | booking-consumer | Event collected | batch=7/10 | partition=1 | offset=2137 | event_id=4a50ebb2-190d-4ead-ab29-b94dcf295774
+2026-07-25 11:45:17,256 | INFO | booking-consumer | Event collected | batch=8/10 | partition=1 | offset=2138 | event_id=90a8614a-e27c-43ee-8d0b-184d841b2598
+2026-07-25 11:45:17,256 | INFO | booking-consumer | Event collected | batch=9/10 | partition=1 | offset=2139 | event_id=e8141cf4-24e4-4e35-be65-8b152f76445a
+2026-07-25 11:45:17,258 | INFO | booking-consumer | Event collected | batch=10/10 | partition=1 | offset=2140 | event_id=c2de5f76-cbba-4396-9193-63cfd5953b4c
+2026-07-25 11:45:17,259 | INFO | booking-consumer | Processing Bronze batch | records=10
+2026-07-25 11:45:17,265 | INFO | file-writer | Bronze batch written locally | records=10 | file=data\bronze\booking_events_20260725_164517_10a0dafbc4f746b593ad6deb72085b8d.jsonl
+2026-07-25 11:45:17,276 | INFO | file-compressor | File compressed successfully | input=data\bronze\booking_events_20260725_164517_10a0dafbc4f746b593ad6deb72085b8d.jsonl | output=data\bronze\booking_events_20260725_164517_10a0dafbc4f746b593ad6deb72085b8d.jsonl.gz
+2026-07-25 11:45:17,277 | INFO | booking-consumer | Bronze S3 key generated | key=bronze/year=2026/month=07/day=25/hour=16/booking_events_ed54ddd39a254ec494e0ba8cffa00cd2.jsonl.gz
+2026-07-25 11:45:19,156 | INFO | s3-uploader | File uploaded successfully | local_file=data\bronze\booking_events_20260725_164517_10a0dafbc4f746b593ad6deb72085b8d.jsonl.gz | s3_uri=s3://data-pipeline-southwest/bronze/year=2026/month=07/day=25/hour=16/booking_events_ed54ddd39a254ec494e0ba8cffa00cd2.jsonl.gz
+2026-07-25 11:45:19,173 | INFO | booking-consumer | Bronze batch uploaded and offsets committed | records=10 | s3_uri=s3://data-pipeline-southwest/bronze/year=2026/month=07/day=25/hour=16/booking_events_ed54ddd39a254ec494e0ba8cffa00cd2.jsonl.gz | offsets={0: 2291, 1: 2141}
+2026-07-25 11:45:19,174 | INFO | booking-consumer | Event collected | batch=1/10 | partition=1 | offset=2141 | event_id=b9cb01ab-be14-4502-8e79-3e9703394b85
+2026-07-25 11:45:19,175 | INFO | booking-consumer | Event collected | batch=2/10 | partition=1 | offset=2142 | event_id=a65e55f6-3ec5-4598-b4b1-2f27084c3ec7
+2026-07-25 11:45:19,176 | INFO | booking-consumer | Event collected | batch=3/10 | partition=1 | offset=2143 | event_id=438369fb-ce90-410c-a877-e11d7ca449cb
+2026-07-25 11:45:19,177 | INFO | booking-consumer | Event collected | batch=4/10 | partition=1 | offset=2144 | event_id=057f7295-163d-4099-a591-9d63849d8320
+2026-07-25 11:45:19,178 | INFO | booking-consumer | Event collected | batch=5/10 | partition=1 | offset=2145 | event_id=587caa09-d5b3-48e0-b4de-541a58cc0b34
+2026-07-25 11:45:19,180 | INFO | booking-consumer | Event collected | batch=6/10 | partition=1 | offset=2146 | event_id=acb2c1d8-cdb0-4205-8491-7d8adc050e11
+2026-07-25 11:45:19,183 | INFO | booking-consumer | Event collected | batch=7/10 | partition=2 | offset=2146 | event_id=bd6ea13c-1ec3-4b62-9a05-9aad8f2761aa
+2026-07-25 11:45:19,184 | INFO | booking-consumer | Event collected | batch=8/10 | partition=2 | offset=2147 | event_id=c6981147-441b-44b4-95d7-cf9e3f3ae580
+2026-07-25 11:45:19,185 | INFO | booking-consumer | Event collected | batch=9/10 | partition=2 | offset=2148 | event_id=36f58972-3ae9-4cfe-a732-db7465955508
+2026-07-25 11:45:19,186 | INFO | booking-consumer | Event collected | batch=10/10 | partition=2 | offset=2149 | event_id=847b5d43-3e8d-4cce-8498-e61c8855cbb4
+2026-07-25 11:45:19,187 | INFO | booking-consumer | Processing Bronze batch | records=10
+2026-07-25 11:45:19,193 | INFO | file-writer | Bronze batch written locally | records=10 | file=data\bronze\booking_events_20260725_164519_da625d1c4b92408cad7f4c70ee63c403.jsonl
+2026-07-25 11:45:19,204 | INFO | file-compressor | File compressed successfully | input=data\bronze\booking_events_20260725_164519_da625d1c4b92408cad7f4c70ee63c403.jsonl | output=data\bronze\booking_events_20260725_164519_da625d1c4b92408cad7f4c70ee63c403.jsonl.gz
+2026-07-25 11:45:19,206 | INFO | booking-consumer | Bronze S3 key generated | key=bronze/year=2026/month=07/day=25/hour=16/booking_events_1d941c4523e541a69b763bab3da55bd2.jsonl.gz
+2026-07-25 11:45:21,226 | INFO | s3-uploader | File uploaded successfully | local_file=data\bronze\booking_events_20260725_164519_da625d1c4b92408cad7f4c70ee63c403.jsonl.gz | s3_uri=s3://data-pipeline-southwest/bronze/year=2026/month=07/day=25/hour=16/booking_events_1d941c4523e541a69b763bab3da55bd2.jsonl.gz
+2026-07-25 11:45:21,242 | INFO | booking-consumer | Bronze batch uploaded and offsets committed | records=10 | s3_uri=s3://data-pipeline-southwest/bronze/year=2026/month=07/day=25/hour=16/booking_events_1d941c4523e541a69b763bab3da55bd2.jsonl.gz | offsets={1: 2147, 2: 2150}
+2026-07-25 11:45:21,244 | INFO | booking-consumer | Event collected | batch=1/10 | partition=2 | offset=2150 | event_id=2ed39cfe-b275-49e6-b40d-fcb39fac0b1c
+2026-07-25 11:45:21,245 | INFO | booking-consumer | Event collected | batch=2/10 | partition=2 | offset=2151 | event_id=7efc47f6-82c4-4a9b-b8fb-63e5cae4f1ce
+2026-07-25 11:45:21,246 | INFO | booking-consumer | Event collected | batch=3/10 | partition=2 | offset=2152 | event_id=c5f677f4-215c-4067-82c7-b4199668216d
+2026-07-25 11:45:21,247 | INFO | booking-consumer | Event collected | batch=4/10 | partition=2 | offset=2153 | event_id=3eea2568-1150-41de-b80f-8e64db78800d
+2026-07-25 11:45:21,248 | INFO | booking-consumer | Event collected | batch=5/10 | partition=2 | offset=2154 | event_id=5ca08777-61e9-4d69-b642-73f019dc3544
+2026-07-25 11:45:21,250 | INFO | booking-consumer | Event collected | batch=6/10 | partition=2 | offset=2155 | event_id=01d8a5bd-c4f2-4cb0-96c5-99dd7f3a9d74
+2026-07-25 11:45:21,251 | INFO | booking-consumer | Event collected | batch=7/10 | partition=2 | offset=2156 | event_id=a8a01a68-1c20-4982-8871-9df0c099d1c3
+2026-07-25 11:45:21,257 | INFO | booking-consumer | Event collected | batch=8/10 | partition=2 | offset=2157 | event_id=ee8cf52f-90c8-4dbb-a924-11c2d3c0379c
+2026-07-25 11:45:21,261 | INFO | booking-consumer | Event collected | batch=9/10 | partition=2 | offset=2158 | event_id=9faa5114-7e7a-4524-989b-fe563163a80a
+2026-07-25 11:45:21,262 | INFO | booking-consumer | Event collected | batch=10/10 | partition=2 | offset=2159 | event_id=ee38ddfd-4fd2-4457-be70-298268376d83
+2026-07-25 11:45:21,263 | INFO | booking-consumer | Processing Bronze batch | records=10
+2026-07-25 11:45:21,275 | INFO | file-writer | Bronze batch written locally | records=10 | file=data\bronze\booking_events_20260725_164521_217d4876ea9641c5bf1343cab5282715.jsonl
+2026-07-25 11:45:21,282 | INFO | file-compressor | File compressed successfully | input=data\bronze\booking_events_20260725_164521_217d4876ea9641c5bf1343cab5282715.jsonl | output=data\bronze\booking_events_20260725_164521_217d4876ea9641c5bf1343cab5282715.jsonl.gz
+2026-07-25 11:45:21,284 | INFO | booking-consumer | Bronze S3 key generated | key=bronze/year=2026/month=07/day=25/hour=16/booking_events_9dbb164113554fd9b7c220976900f53c.jsonl.gz
+2026-07-25 11:45:23,236 | INFO | s3-uploader | File uploaded successfully | local_file=data\bronze\booking_events_20260725_164521_217d4876ea9641c5bf1343cab5282715.jsonl.gz | s3_uri=s3://data-pipeline-southwest/bronze/year=2026/month=07/day=25/hour=16/booking_events_9dbb164113554fd9b7c220976900f53c.jsonl.gz
+2026-07-25 11:45:23,252 | INFO | booking-consumer | Bronze batch uploaded and offsets committed | records=10 | s3_uri=s3://data-pipeline-southwest/bronze/year=2026/month=07/day=25/hour=16/booking_events_9dbb164113554fd9b7c220976900f53c.jsonl.gz | offsets={2: 2160}
+2026-07-25 11:45:23,253 | INFO | booking-consumer | Event collected | batch=1/10 | partition=2 | offset=2160 | event_id=a4385a1c-5493-45ff-8bf3-916d2cde69c5
+2026-07-25 11:45:23,254 | INFO | booking-consumer | Event collected | batch=2/10 | partition=3 | offset=2146 | event_id=17e9692f-ed40-4524-962a-2e4d8be7f8cf
+2026-07-25 11:45:23,256 | INFO | booking-consumer | Event collected | batch=3/10 | partition=3 | offset=2147 | event_id=b5fd992b-182e-4473-a324-7812473803cc
+2026-07-25 11:45:23,258 | INFO | booking-consumer | Event collected | batch=4/10 | partition=3 | offset=2148 | event_id=47d50acf-4b2d-48e0-8459-f0e9fbeab92c
+2026-07-25 11:45:23,259 | INFO | booking-consumer | Event collected | batch=5/10 | partition=3 | offset=2149 | event_id=d66570d3-c7a0-46df-bfc5-2cd44bdc9dee
+2026-07-25 11:45:23,260 | INFO | booking-consumer | Event collected | batch=6/10 | partition=3 | offset=2150 | event_id=2e4f131b-8430-4ff7-b6af-f1073f9d6401
+2026-07-25 11:45:23,261 | INFO | booking-consumer | Event collected | batch=7/10 | partition=3 | offset=2151 | event_id=31402b5b-034b-44b2-88a4-0a72f9cc6cdb
+2026-07-25 11:46:05,935 | INFO | booking-consumer | Consumer shutdown requested
+2026-07-25 11:46:05,936 | INFO | booking-consumer | Processing Bronze batch | records=7
+2026-07-25 11:46:05,942 | INFO | file-writer | Bronze batch written locally | records=7 | file=data\bronze\booking_events_20260725_164605_e534006cbd6c4453a513441e1075ae20.jsonl
+2026-07-25 11:46:05,949 | INFO | file-compressor | File compressed successfully | input=data\bronze\booking_events_20260725_164605_e534006cbd6c4453a513441e1075ae20.jsonl | output=data\bronze\booking_events_20260725_164605_e534006cbd6c4453a513441e1075ae20.jsonl.gz
+2026-07-25 11:46:05,950 | INFO | booking-consumer | Bronze S3 key generated | key=bronze/year=2026/month=07/day=25/hour=16/booking_events_569b67f9edb94f3b82f97211749a2a32.jsonl.gz
+2026-07-25 11:46:08,353 | INFO | s3-uploader | File uploaded successfully | local_file=data\bronze\booking_events_20260725_164605_e534006cbd6c4453a513441e1075ae20.jsonl.gz | s3_uri=s3://data-pipeline-southwest/bronze/year=2026/month=07/day=25/hour=16/booking_events_569b67f9edb94f3b82f97211749a2a32.jsonl.gz
+2026-07-25 11:46:08,370 | INFO | booking-consumer | Bronze batch uploaded and offsets committed | records=7 | s3_uri=s3://data-pipeline-southwest/bronze/year=2026/month=07/day=25/hour=16/booking_events_569b67f9edb94f3b82f97211749a2a32.jsonl.gz | offsets={2: 2161, 3: 2152}
+2026-07-25 11:46:08,371 | INFO | booking-consumer | Final partial batch processed successfully | records=7
+2026-07-25 11:46:08,393 | INFO | booking-consumer | Kafka consumer stopped safely
+2026-07-25 11:49:58,762 | INFO | booking-producer | Southwest Kafka producer started
+2026-07-25 11:49:58,763 | INFO | booking-producer | Booking event submitted | count=1 | event_id=2ca1cde8-b480-44d6-bf79-c6b50c2689bf | booking_id=49c3bc63-c49a-41b0-8fca-03a7af89b8cc
+2026-07-25 11:50:00,764 | INFO | kafka-producer | Kafka delivery successful | topic=southwest-booking-events | partition=1 | offset=2147
+2026-07-25 11:50:00,765 | INFO | booking-producer | Booking event submitted | count=2 | event_id=a6d47ec8-6d87-4e78-90f9-8f85b01b9e0c | booking_id=5d89ff15-467f-487b-9b43-6b6f4c8e1c9c
+2026-07-25 11:50:02,768 | INFO | kafka-producer | Kafka delivery successful | topic=southwest-booking-events | partition=0 | offset=2291
+2026-07-25 11:50:02,769 | INFO | booking-producer | Booking event submitted | count=3 | event_id=e8c7115c-200e-4bde-b974-e54a1c2d6f75 | booking_id=9ebea01c-35da-47da-9c74-92b5b15e45a3
+2026-07-25 11:50:04,771 | INFO | kafka-producer | Kafka delivery successful | topic=southwest-booking-events | partition=2 | offset=2161
+2026-07-25 11:50:04,772 | INFO | booking-producer | Booking event submitted | count=4 | event_id=2b9abc69-f11c-4121-94ec-717334f23664 | booking_id=36b8e0e3-d593-4355-ac3d-0a698e6b5196
+2026-07-25 11:50:06,773 | INFO | kafka-producer | Kafka delivery successful | topic=southwest-booking-events | partition=2 | offset=2162
+2026-07-25 11:50:06,775 | INFO | booking-producer | Booking event submitted | count=5 | event_id=bce4a8b4-ebc7-4d1c-9b22-66ea73c4b55b | booking_id=c0762fae-d997-47dc-88c0-4d04e1a48eab
+2026-07-25 11:50:08,777 | INFO | kafka-producer | Kafka delivery successful | topic=southwest-booking-events | partition=3 | offset=2152
+2026-07-25 11:50:08,778 | INFO | booking-producer | Booking event submitted | count=6 | event_id=b16df0ca-75d0-407f-a2c8-bd7ec5a1253a | booking_id=dc794ead-5792-49ea-93a7-d6b041b6a373
+2026-07-25 11:50:10,781 | INFO | kafka-producer | Kafka delivery successful | topic=southwest-booking-events | partition=1 | offset=2148
+2026-07-25 11:50:10,785 | INFO | booking-producer | Booking event submitted | count=7 | event_id=5b213d29-9c55-4e90-a880-5002b6bfe9c1 | booking_id=4490e861-5111-4516-8e08-821c421f4912
+2026-07-25 11:50:12,787 | INFO | kafka-producer | Kafka delivery successful | topic=southwest-booking-events | partition=0 | offset=2292
+2026-07-25 11:50:12,788 | INFO | booking-producer | Booking event submitted | count=8 | event_id=67c5d4d0-7290-40d5-b4c7-58972f3c78a7 | booking_id=3a976538-63e1-459b-afe5-555f829b905b
+2026-07-25 11:50:14,791 | INFO | kafka-producer | Kafka delivery successful | topic=southwest-booking-events | partition=3 | offset=2153
+2026-07-25 11:50:14,791 | INFO | booking-producer | Booking event submitted | count=9 | event_id=83496afb-5922-4f2a-b5a4-6544dae03b44 | booking_id=42642671-5379-48ba-a15b-99b4169daa7c
+2026-07-25 11:50:16,793 | INFO | kafka-producer | Kafka delivery successful | topic=southwest-booking-events | partition=1 | offset=2149
+2026-07-25 11:50:16,794 | INFO | booking-producer | Booking event submitted | count=10 | event_id=68d8f8bb-7a99-485f-a6e8-a2f3391931f9 | booking_id=a3693e2a-0ac9-4c56-b4ad-6acdce4d1678
+2026-07-25 11:50:18,796 | INFO | kafka-producer | Kafka delivery successful | topic=southwest-booking-events | partition=2 | offset=2163
+2026-07-25 11:50:18,797 | INFO | booking-producer | Booking event submitted | count=11 | event_id=86ebf72f-be7a-4e9e-bb30-6c035ed98e83 | booking_id=b3add9aa-35bd-405c-8cc6-7bf15dc0a3a6
+2026-07-25 11:50:20,798 | INFO | kafka-producer | Kafka delivery successful | topic=southwest-booking-events | partition=0 | offset=2293
+2026-07-25 11:50:20,799 | INFO | booking-producer | Booking event submitted | count=12 | event_id=f9a09be5-b14d-4826-bf7a-0a39a1dcba59 | booking_id=471604b5-179e-4c29-87c9-26fbb95adf63
+2026-07-25 11:50:22,801 | INFO | kafka-producer | Kafka delivery successful | topic=southwest-booking-events | partition=2 | offset=2164
+2026-07-25 11:50:22,802 | INFO | booking-producer | Booking event submitted | count=13 | event_id=e878ffa4-2353-4679-a607-f3c2480a8f5d | booking_id=50730444-ae17-4dd2-b2cb-642fb168aeec
+2026-07-25 11:50:24,804 | INFO | kafka-producer | Kafka delivery successful | topic=southwest-booking-events | partition=3 | offset=2154
+2026-07-25 11:50:24,805 | INFO | booking-producer | Booking event submitted | count=14 | event_id=8a8b5320-4905-43ed-ba50-d89e73abf785 | booking_id=7b6ce04a-401c-4da4-b277-f11d6c128246
+2026-07-25 11:50:26,807 | INFO | kafka-producer | Kafka delivery successful | topic=southwest-booking-events | partition=0 | offset=2294
+2026-07-25 11:50:26,808 | INFO | booking-producer | Booking event submitted | count=15 | event_id=037f6fd0-4910-4f58-aee9-3e6a4dc6743f | booking_id=f3e78761-7f47-4717-a1f8-19816d0905c3
+2026-07-25 11:50:28,810 | INFO | kafka-producer | Kafka delivery successful | topic=southwest-booking-events | partition=0 | offset=2295
+2026-07-25 11:50:28,811 | INFO | booking-producer | Booking event submitted | count=16 | event_id=42be1bf4-da64-4b25-868d-bd751ec90e34 | booking_id=80325b08-bb10-4ef4-a434-174046f5306a
+2026-07-25 11:50:30,812 | INFO | kafka-producer | Kafka delivery successful | topic=southwest-booking-events | partition=0 | offset=2296
+2026-07-25 11:50:30,813 | INFO | booking-producer | Booking event submitted | count=17 | event_id=a10ad9df-59de-4455-95e8-4fc31eb52d8b | booking_id=36268ad7-8abb-4566-b804-1def12d5a4ca
+2026-07-25 11:50:32,815 | INFO | kafka-producer | Kafka delivery successful | topic=southwest-booking-events | partition=0 | offset=2297
+2026-07-25 11:50:32,816 | INFO | booking-producer | Booking event submitted | count=18 | event_id=f8320fa6-6536-4480-b7bf-06212e3730d7 | booking_id=096a905a-7cbd-47b2-a3f3-ae9e9ac90bf7
+2026-07-25 11:50:34,818 | INFO | kafka-producer | Kafka delivery successful | topic=southwest-booking-events | partition=3 | offset=2155
+2026-07-25 11:50:34,819 | INFO | booking-producer | Booking event submitted | count=19 | event_id=12f994a7-e241-4c6e-a224-6660fd37f2cd | booking_id=e1dd0ca2-9b29-4d21-9651-4ba78b0ee1f5
+2026-07-25 11:50:36,820 | INFO | kafka-producer | Kafka delivery successful | topic=southwest-booking-events | partition=2 | offset=2165
+2026-07-25 11:50:36,821 | INFO | booking-producer | Booking event submitted | count=20 | event_id=7f2da3e9-3c29-446c-8c42-e80c4d67f7c4 | booking_id=2130cf4b-3a6a-4df0-bcfa-2fae797ed915
+2026-07-25 11:50:38,823 | INFO | kafka-producer | Kafka delivery successful | topic=southwest-booking-events | partition=3 | offset=2156
+2026-07-25 11:50:38,823 | INFO | booking-producer | Booking event submitted | count=21 | event_id=00dd590f-9b72-4d92-af19-73650583e0f2 | booking_id=eec55461-9763-4b3c-a1e2-4bc0ab24c9d9
+2026-07-25 11:50:40,825 | INFO | kafka-producer | Kafka delivery successful | topic=southwest-booking-events | partition=1 | offset=2150
+2026-07-25 11:50:40,826 | INFO | booking-producer | Booking event submitted | count=22 | event_id=887cd0fc-07ef-4781-b8e9-47fbc82c9a29 | booking_id=0a4d82a1-4355-4991-b863-d293bd3c6c8f
+2026-07-25 11:50:42,827 | INFO | kafka-producer | Kafka delivery successful | topic=southwest-booking-events | partition=1 | offset=2151
+2026-07-25 11:50:42,829 | INFO | booking-producer | Booking event submitted | count=23 | event_id=9d3e06b9-b8b2-4192-808f-742fb709efd9 | booking_id=0bf3adb2-ef16-48ad-9ddc-a1105a88ac81
+2026-07-25 11:50:44,830 | INFO | kafka-producer | Kafka delivery successful | topic=southwest-booking-events | partition=2 | offset=2166
+2026-07-25 11:50:44,831 | INFO | booking-producer | Booking event submitted | count=24 | event_id=fe9b3a8d-12a7-45b9-9188-8400bbc4d3cd | booking_id=d71ea7af-5e05-4cda-9b4e-8afa0364924f
+2026-07-25 11:50:45,594 | INFO | booking-producer | Producer shutdown requested
+2026-07-25 11:50:45,595 | INFO | kafka-producer | Kafka delivery successful | topic=southwest-booking-events | partition=2 | offset=2167
+2026-07-25 11:50:45,596 | INFO | booking-producer | All queued Kafka messages were delivered
+2026-07-25 11:50:45,597 | INFO | booking-producer | Kafka producer stopped
+2026-07-25 11:51:05,600 | INFO | booking-consumer | Southwest booking consumer started | topic=southwest-booking-events | batch_size=10 | s3_bucket=data-pipeline-southwest
+2026-07-25 11:51:08,753 | INFO | booking-consumer | Event collected | batch=1/10 | partition=0 | offset=2291 | event_id=a6d47ec8-6d87-4e78-90f9-8f85b01b9e0c
+2026-07-25 11:51:08,755 | INFO | booking-consumer | Event collected | batch=2/10 | partition=0 | offset=2292 | event_id=5b213d29-9c55-4e90-a880-5002b6bfe9c1
+2026-07-25 11:51:08,756 | INFO | booking-consumer | Event collected | batch=3/10 | partition=0 | offset=2293 | event_id=86ebf72f-be7a-4e9e-bb30-6c035ed98e83
+2026-07-25 11:51:08,757 | INFO | booking-consumer | Event collected | batch=4/10 | partition=0 | offset=2294 | event_id=8a8b5320-4905-43ed-ba50-d89e73abf785
+2026-07-25 11:51:08,758 | INFO | booking-consumer | Event collected | batch=5/10 | partition=0 | offset=2295 | event_id=037f6fd0-4910-4f58-aee9-3e6a4dc6743f
+2026-07-25 11:51:08,759 | INFO | booking-consumer | Event collected | batch=6/10 | partition=0 | offset=2296 | event_id=42be1bf4-da64-4b25-868d-bd751ec90e34
+2026-07-25 11:51:08,761 | INFO | booking-consumer | Event collected | batch=7/10 | partition=0 | offset=2297 | event_id=a10ad9df-59de-4455-95e8-4fc31eb52d8b
+2026-07-25 11:51:08,761 | INFO | booking-consumer | Event collected | batch=8/10 | partition=1 | offset=2147 | event_id=2ca1cde8-b480-44d6-bf79-c6b50c2689bf
+2026-07-25 11:51:08,763 | INFO | booking-consumer | Event collected | batch=9/10 | partition=1 | offset=2148 | event_id=b16df0ca-75d0-407f-a2c8-bd7ec5a1253a
+2026-07-25 11:51:08,764 | INFO | booking-consumer | Event collected | batch=10/10 | partition=1 | offset=2149 | event_id=83496afb-5922-4f2a-b5a4-6544dae03b44
+2026-07-25 11:51:08,765 | INFO | booking-consumer | Processing Bronze batch | records=10
+2026-07-25 11:51:08,770 | INFO | file-writer | Bronze batch written locally | records=10 | file=data\bronze\booking_events_20260725_165108_2b6190f052e04c328a4d0bae709a733b.jsonl
+2026-07-25 11:51:08,795 | INFO | file-compressor | File compressed successfully | input=data\bronze\booking_events_20260725_165108_2b6190f052e04c328a4d0bae709a733b.jsonl | output=data\bronze\booking_events_20260725_165108_2b6190f052e04c328a4d0bae709a733b.jsonl.gz
+2026-07-25 11:51:08,796 | INFO | booking-consumer | Bronze S3 key generated | key=bronze/year=2026/month=07/day=25/hour=16/booking_events_ae1e870a18054d6a8ca464d8d6ed4fe5.jsonl.gz
+2026-07-25 11:51:11,651 | INFO | s3-uploader | File uploaded successfully | local_file=data\bronze\booking_events_20260725_165108_2b6190f052e04c328a4d0bae709a733b.jsonl.gz | s3_uri=s3://data-pipeline-southwest/bronze/year=2026/month=07/day=25/hour=16/booking_events_ae1e870a18054d6a8ca464d8d6ed4fe5.jsonl.gz
+2026-07-25 11:51:11,668 | INFO | booking-consumer | Bronze batch uploaded and offsets committed | records=10 | s3_uri=s3://data-pipeline-southwest/bronze/year=2026/month=07/day=25/hour=16/booking_events_ae1e870a18054d6a8ca464d8d6ed4fe5.jsonl.gz | offsets={0: 2298, 1: 2150}
+2026-07-25 11:51:11,670 | INFO | booking-consumer | Event collected | batch=1/10 | partition=1 | offset=2150 | event_id=00dd590f-9b72-4d92-af19-73650583e0f2
+2026-07-25 11:51:11,673 | INFO | booking-consumer | Event collected | batch=2/10 | partition=1 | offset=2151 | event_id=887cd0fc-07ef-4781-b8e9-47fbc82c9a29
+2026-07-25 11:51:11,673 | INFO | booking-consumer | Event collected | batch=3/10 | partition=2 | offset=2161 | event_id=e8c7115c-200e-4bde-b974-e54a1c2d6f75
+2026-07-25 11:51:11,675 | INFO | booking-consumer | Event collected | batch=4/10 | partition=2 | offset=2162 | event_id=2b9abc69-f11c-4121-94ec-717334f23664
+2026-07-25 11:51:11,676 | INFO | booking-consumer | Event collected | batch=5/10 | partition=2 | offset=2163 | event_id=68d8f8bb-7a99-485f-a6e8-a2f3391931f9
+2026-07-25 11:51:11,677 | INFO | booking-consumer | Event collected | batch=6/10 | partition=2 | offset=2164 | event_id=f9a09be5-b14d-4826-bf7a-0a39a1dcba59
+2026-07-25 11:51:11,677 | INFO | booking-consumer | Event collected | batch=7/10 | partition=2 | offset=2165 | event_id=12f994a7-e241-4c6e-a224-6660fd37f2cd
+2026-07-25 11:51:11,678 | INFO | booking-consumer | Event collected | batch=8/10 | partition=2 | offset=2166 | event_id=9d3e06b9-b8b2-4192-808f-742fb709efd9
+2026-07-25 11:51:11,680 | INFO | booking-consumer | Event collected | batch=9/10 | partition=2 | offset=2167 | event_id=fe9b3a8d-12a7-45b9-9188-8400bbc4d3cd
+2026-07-25 11:51:11,680 | INFO | booking-consumer | Event collected | batch=10/10 | partition=3 | offset=2152 | event_id=bce4a8b4-ebc7-4d1c-9b22-66ea73c4b55b
+2026-07-25 11:51:11,681 | INFO | booking-consumer | Processing Bronze batch | records=10
+2026-07-25 11:51:11,687 | INFO | file-writer | Bronze batch written locally | records=10 | file=data\bronze\booking_events_20260725_165111_17df8339f6624872bd94627783a9b0c7.jsonl
+2026-07-25 11:51:11,696 | INFO | file-compressor | File compressed successfully | input=data\bronze\booking_events_20260725_165111_17df8339f6624872bd94627783a9b0c7.jsonl | output=data\bronze\booking_events_20260725_165111_17df8339f6624872bd94627783a9b0c7.jsonl.gz
+2026-07-25 11:51:11,697 | INFO | booking-consumer | Bronze S3 key generated | key=bronze/year=2026/month=07/day=25/hour=16/booking_events_14aab181f18d43e7bc4b68024d299485.jsonl.gz
+2026-07-25 11:51:13,509 | INFO | s3-uploader | File uploaded successfully | local_file=data\bronze\booking_events_20260725_165111_17df8339f6624872bd94627783a9b0c7.jsonl.gz | s3_uri=s3://data-pipeline-southwest/bronze/year=2026/month=07/day=25/hour=16/booking_events_14aab181f18d43e7bc4b68024d299485.jsonl.gz
+2026-07-25 11:51:13,525 | INFO | booking-consumer | Bronze batch uploaded and offsets committed | records=10 | s3_uri=s3://data-pipeline-southwest/bronze/year=2026/month=07/day=25/hour=16/booking_events_14aab181f18d43e7bc4b68024d299485.jsonl.gz | offsets={1: 2152, 2: 2168, 3: 2153}
+2026-07-25 11:51:13,527 | INFO | booking-consumer | Event collected | batch=1/10 | partition=3 | offset=2153 | event_id=67c5d4d0-7290-40d5-b4c7-58972f3c78a7
+2026-07-25 11:51:13,528 | INFO | booking-consumer | Event collected | batch=2/10 | partition=3 | offset=2154 | event_id=e878ffa4-2353-4679-a607-f3c2480a8f5d
+2026-07-25 11:51:13,529 | INFO | booking-consumer | Event collected | batch=3/10 | partition=3 | offset=2155 | event_id=f8320fa6-6536-4480-b7bf-06212e3730d7
+2026-07-25 11:51:13,530 | INFO | booking-consumer | Event collected | batch=4/10 | partition=3 | offset=2156 | event_id=7f2da3e9-3c29-446c-8c42-e80c4d67f7c4
+2026-07-25 11:51:44,099 | INFO | booking-consumer | Consumer shutdown requested
+2026-07-25 11:51:44,100 | INFO | booking-consumer | Processing Bronze batch | records=4
+2026-07-25 11:51:44,104 | INFO | file-writer | Bronze batch written locally | records=4 | file=data\bronze\booking_events_20260725_165144_f55ac6e6e6b54759895eda43b814dfe6.jsonl
+2026-07-25 11:51:44,110 | INFO | file-compressor | File compressed successfully | input=data\bronze\booking_events_20260725_165144_f55ac6e6e6b54759895eda43b814dfe6.jsonl | output=data\bronze\booking_events_20260725_165144_f55ac6e6e6b54759895eda43b814dfe6.jsonl.gz
+2026-07-25 11:51:44,111 | INFO | booking-consumer | Bronze S3 key generated | key=bronze/year=2026/month=07/day=25/hour=16/booking_events_ec0840d4a5914c35afce8ab1e613d4c8.jsonl.gz
+2026-07-25 11:51:46,038 | INFO | s3-uploader | File uploaded successfully | local_file=data\bronze\booking_events_20260725_165144_f55ac6e6e6b54759895eda43b814dfe6.jsonl.gz | s3_uri=s3://data-pipeline-southwest/bronze/year=2026/month=07/day=25/hour=16/booking_events_ec0840d4a5914c35afce8ab1e613d4c8.jsonl.gz
+2026-07-25 11:51:46,049 | INFO | booking-consumer | Bronze batch uploaded and offsets committed | records=4 | s3_uri=s3://data-pipeline-southwest/bronze/year=2026/month=07/day=25/hour=16/booking_events_ec0840d4a5914c35afce8ab1e613d4c8.jsonl.gz | offsets={3: 2157}
+2026-07-25 11:51:46,050 | INFO | booking-consumer | Final partial batch processed successfully | records=4
+2026-07-25 11:51:46,061 | INFO | booking-consumer | Kafka consumer stopped safely
+2026-07-25 11:56:27,809 | INFO | booking-producer | Southwest Kafka producer started
+2026-07-25 11:56:27,810 | INFO | booking-producer | Booking event submitted | count=1 | event_id=05dc5f04-2974-4738-862c-babacda5c712 | booking_id=0a172bf4-d1bb-4d58-b951-68fc118d865a
+2026-07-25 11:56:29,812 | INFO | kafka-producer | Kafka delivery successful | topic=southwest-booking-events | partition=2 | offset=2168
+2026-07-25 11:56:29,812 | INFO | booking-producer | Booking event submitted | count=2 | event_id=2100755f-4439-4cf4-83fe-50823c55d007 | booking_id=bacc6c87-29b6-4c66-b16c-8620c70ae09a
+2026-07-25 11:56:31,813 | INFO | kafka-producer | Kafka delivery successful | topic=southwest-booking-events | partition=3 | offset=2157
+2026-07-25 11:56:31,814 | INFO | booking-producer | Booking event submitted | count=3 | event_id=28116004-3403-4fd5-a6a6-2581f429d776 | booking_id=f7d6ff69-66ba-4d11-bfa1-e26814ece4fc
+2026-07-25 11:56:33,816 | INFO | kafka-producer | Kafka delivery successful | topic=southwest-booking-events | partition=0 | offset=2298
+2026-07-25 11:56:33,817 | INFO | booking-producer | Booking event submitted | count=4 | event_id=7ff30d5b-ff09-4028-93a4-53395d292551 | booking_id=5c012035-3d63-40ed-a8ab-28e15abd3426
+2026-07-25 11:56:35,818 | INFO | kafka-producer | Kafka delivery successful | topic=southwest-booking-events | partition=0 | offset=2299
+2026-07-25 11:56:35,818 | INFO | booking-producer | Booking event submitted | count=5 | event_id=cbb53dcc-86aa-41f5-aee7-6bd1034a8931 | booking_id=4abb32cf-ddcf-444d-9e1c-57d2365c78ce
+2026-07-25 11:56:37,820 | INFO | kafka-producer | Kafka delivery successful | topic=southwest-booking-events | partition=0 | offset=2300
+2026-07-25 11:56:37,822 | INFO | booking-producer | Booking event submitted | count=6 | event_id=18c16c87-19fe-4d80-8d85-1ad36a4fd47c | booking_id=02bb7ca3-78c2-4761-bf02-c4ade99a2fee
+2026-07-25 11:56:39,823 | INFO | kafka-producer | Kafka delivery successful | topic=southwest-booking-events | partition=2 | offset=2169
+2026-07-25 11:56:39,824 | INFO | booking-producer | Booking event submitted | count=7 | event_id=7db3ea45-63a4-4d39-a028-ca0efb260e48 | booking_id=a2907b81-7387-4df3-bf8a-2b2df96444c9
+2026-07-25 11:56:41,826 | INFO | kafka-producer | Kafka delivery successful | topic=southwest-booking-events | partition=3 | offset=2158
+2026-07-25 11:56:41,826 | INFO | booking-producer | Booking event submitted | count=8 | event_id=816308bd-bc8f-4172-898d-07c8b3d64881 | booking_id=7a74e073-08f2-46e5-9171-3b8e2a60e9f8
+2026-07-25 11:56:43,828 | INFO | kafka-producer | Kafka delivery successful | topic=southwest-booking-events | partition=3 | offset=2159
+2026-07-25 11:56:43,829 | INFO | booking-producer | Booking event submitted | count=9 | event_id=7885345d-80a3-4fa3-8610-dc9f8fba714e | booking_id=3cf5d4c5-b557-4eda-b1ae-474bdef5029a
+2026-07-25 11:56:45,135 | INFO | booking-producer | Producer shutdown requested
+2026-07-25 11:56:45,136 | INFO | kafka-producer | Kafka delivery successful | topic=southwest-booking-events | partition=0 | offset=2301
+2026-07-25 11:56:45,137 | INFO | booking-producer | All queued Kafka messages were delivered
+2026-07-25 11:56:45,137 | INFO | booking-producer | Kafka producer stopped
+2026-07-25 11:56:52,821 | INFO | booking-producer | Southwest Kafka producer started
+2026-07-25 11:56:52,823 | INFO | booking-producer | Booking event submitted | count=1 | event_id=73787ffd-25ac-4d6b-a9e7-8bbd1f7d53fe | booking_id=f3973301-e362-48e9-b5cc-7f89295e722a
+2026-07-25 11:56:54,825 | INFO | kafka-producer | Kafka delivery successful | topic=southwest-booking-events | partition=1 | offset=2152
+2026-07-25 11:56:54,827 | INFO | booking-producer | Booking event submitted | count=2 | event_id=4468e612-c2be-446b-b1a1-8943b1302155 | booking_id=a6991610-7bf4-4631-b9a9-612e3dbb1187
+2026-07-25 11:56:56,829 | INFO | kafka-producer | Kafka delivery successful | topic=southwest-booking-events | partition=3 | offset=2160
+2026-07-25 11:56:56,830 | INFO | booking-producer | Booking event submitted | count=3 | event_id=3f949391-4148-4bc0-84c3-e8fe13934a53 | booking_id=042fa694-9ce8-4ac9-b5f5-4bf492f76162
+2026-07-25 11:56:58,832 | INFO | kafka-producer | Kafka delivery successful | topic=southwest-booking-events | partition=2 | offset=2170
+2026-07-25 11:56:58,833 | INFO | booking-producer | Booking event submitted | count=4 | event_id=271e51c4-5f4d-4df0-afad-7031f011bd1b | booking_id=13cd6628-4d54-4138-a85f-9c0321f86cdf
+2026-07-25 11:57:00,836 | INFO | kafka-producer | Kafka delivery successful | topic=southwest-booking-events | partition=2 | offset=2171
+2026-07-25 11:57:00,837 | INFO | booking-producer | Booking event submitted | count=5 | event_id=2ec5045a-1b7f-445b-9856-6adab87eb6fe | booking_id=49eb6606-eec1-4924-9671-e3c1719d3f05
+2026-07-25 11:57:02,838 | INFO | kafka-producer | Kafka delivery successful | topic=southwest-booking-events | partition=2 | offset=2172
+2026-07-25 11:57:02,839 | INFO | booking-producer | Booking event submitted | count=6 | event_id=da4de75c-65c8-4cb6-b60d-6094cb3e49cf | booking_id=65b298f2-d6e3-494f-aae3-7643df0f7799
+2026-07-25 11:57:04,841 | INFO | kafka-producer | Kafka delivery successful | topic=southwest-booking-events | partition=0 | offset=2302
+2026-07-25 11:57:04,842 | INFO | booking-producer | Booking event submitted | count=7 | event_id=40fd6444-22ac-412f-b6a6-b035d83a7ca3 | booking_id=30313357-63d9-4276-98ac-5cc55c138729
+2026-07-25 11:57:06,742 | INFO | booking-producer | Producer shutdown requested
+2026-07-25 11:57:06,744 | INFO | kafka-producer | Kafka delivery successful | topic=southwest-booking-events | partition=0 | offset=2303
+2026-07-25 11:57:06,745 | INFO | booking-producer | All queued Kafka messages were delivered
+2026-07-25 11:57:06,745 | INFO | booking-producer | Kafka producer stopped
+2026-07-25 11:57:12,742 | INFO | booking-consumer | Southwest booking consumer started | topic=southwest-booking-events | batch_size=10 | s3_bucket=data-pipeline-southwest
+2026-07-25 11:57:15,921 | INFO | booking-consumer | Event collected | batch=1/10 | partition=0 | offset=2298 | event_id=28116004-3403-4fd5-a6a6-2581f429d776
+2026-07-25 11:57:15,923 | INFO | booking-consumer | Event collected | batch=2/10 | partition=0 | offset=2299 | event_id=7ff30d5b-ff09-4028-93a4-53395d292551
+2026-07-25 11:57:15,925 | INFO | booking-consumer | Event collected | batch=3/10 | partition=0 | offset=2300 | event_id=cbb53dcc-86aa-41f5-aee7-6bd1034a8931
+2026-07-25 11:57:15,925 | INFO | booking-consumer | Event collected | batch=4/10 | partition=0 | offset=2301 | event_id=7885345d-80a3-4fa3-8610-dc9f8fba714e
+2026-07-25 11:57:15,927 | INFO | booking-consumer | Event collected | batch=5/10 | partition=0 | offset=2302 | event_id=da4de75c-65c8-4cb6-b60d-6094cb3e49cf
+2026-07-25 11:57:15,928 | INFO | booking-consumer | Event collected | batch=6/10 | partition=0 | offset=2303 | event_id=40fd6444-22ac-412f-b6a6-b035d83a7ca3
+2026-07-25 11:57:15,929 | INFO | booking-consumer | Event collected | batch=7/10 | partition=1 | offset=2152 | event_id=73787ffd-25ac-4d6b-a9e7-8bbd1f7d53fe
+2026-07-25 11:57:15,929 | INFO | booking-consumer | Event collected | batch=8/10 | partition=2 | offset=2168 | event_id=05dc5f04-2974-4738-862c-babacda5c712
+2026-07-25 11:57:15,930 | INFO | booking-consumer | Event collected | batch=9/10 | partition=2 | offset=2169 | event_id=18c16c87-19fe-4d80-8d85-1ad36a4fd47c
+2026-07-25 11:57:15,931 | INFO | booking-consumer | Event collected | batch=10/10 | partition=2 | offset=2170 | event_id=3f949391-4148-4bc0-84c3-e8fe13934a53
+2026-07-25 11:57:15,932 | INFO | booking-consumer | Processing Bronze batch | records=10
+2026-07-25 11:57:15,937 | INFO | file-writer | Bronze batch written locally | records=10 | file=data\bronze\booking_events_20260725_165715_60ae2b114fc24ae0983be03ff1579913.jsonl
+2026-07-25 11:57:15,946 | INFO | file-compressor | File compressed successfully | input=data\bronze\booking_events_20260725_165715_60ae2b114fc24ae0983be03ff1579913.jsonl | output=data\bronze\booking_events_20260725_165715_60ae2b114fc24ae0983be03ff1579913.jsonl.gz
+2026-07-25 11:57:15,948 | INFO | booking-consumer | Bronze S3 key generated | key=bronze/year=2026/month=07/day=25/hour=16/booking_events_c5a0bd3514d7455a9e7b9ad54bdd13c1.jsonl.gz
+2026-07-25 11:57:19,271 | INFO | s3-uploader | File uploaded successfully | local_file=data\bronze\booking_events_20260725_165715_60ae2b114fc24ae0983be03ff1579913.jsonl.gz | s3_uri=s3://data-pipeline-southwest/bronze/year=2026/month=07/day=25/hour=16/booking_events_c5a0bd3514d7455a9e7b9ad54bdd13c1.jsonl.gz
+2026-07-25 11:57:19,288 | INFO | booking-consumer | Bronze batch uploaded and offsets committed | records=10 | s3_uri=s3://data-pipeline-southwest/bronze/year=2026/month=07/day=25/hour=16/booking_events_c5a0bd3514d7455a9e7b9ad54bdd13c1.jsonl.gz | offsets={0: 2304, 1: 2153, 2: 2171}
+2026-07-25 11:57:19,289 | INFO | booking-consumer | Event collected | batch=1/10 | partition=2 | offset=2171 | event_id=271e51c4-5f4d-4df0-afad-7031f011bd1b
+2026-07-25 11:57:19,290 | INFO | booking-consumer | Event collected | batch=2/10 | partition=2 | offset=2172 | event_id=2ec5045a-1b7f-445b-9856-6adab87eb6fe
+2026-07-25 11:57:19,291 | INFO | booking-consumer | Event collected | batch=3/10 | partition=3 | offset=2157 | event_id=2100755f-4439-4cf4-83fe-50823c55d007
+2026-07-25 11:57:19,292 | INFO | booking-consumer | Event collected | batch=4/10 | partition=3 | offset=2158 | event_id=7db3ea45-63a4-4d39-a028-ca0efb260e48
+2026-07-25 11:57:19,293 | INFO | booking-consumer | Event collected | batch=5/10 | partition=3 | offset=2159 | event_id=816308bd-bc8f-4172-898d-07c8b3d64881
+2026-07-25 11:57:19,294 | INFO | booking-consumer | Event collected | batch=6/10 | partition=3 | offset=2160 | event_id=4468e612-c2be-446b-b1a1-8943b1302155
+2026-07-25 11:57:44,931 | INFO | booking-consumer | Consumer shutdown requested
+2026-07-25 11:57:44,932 | INFO | booking-consumer | Processing Bronze batch | records=6
+2026-07-25 11:57:44,937 | INFO | file-writer | Bronze batch written locally | records=6 | file=data\bronze\booking_events_20260725_165744_624380cb2756485f98c5cacc3a12b845.jsonl
+2026-07-25 11:57:44,944 | INFO | file-compressor | File compressed successfully | input=data\bronze\booking_events_20260725_165744_624380cb2756485f98c5cacc3a12b845.jsonl | output=data\bronze\booking_events_20260725_165744_624380cb2756485f98c5cacc3a12b845.jsonl.gz
+2026-07-25 11:57:44,946 | INFO | booking-consumer | Bronze S3 key generated | key=bronze/year=2026/month=07/day=25/hour=16/booking_events_3d642a77e8014572b54d166c761e5561.jsonl.gz
+2026-07-25 11:57:47,020 | INFO | s3-uploader | File uploaded successfully | local_file=data\bronze\booking_events_20260725_165744_624380cb2756485f98c5cacc3a12b845.jsonl.gz | s3_uri=s3://data-pipeline-southwest/bronze/year=2026/month=07/day=25/hour=16/booking_events_3d642a77e8014572b54d166c761e5561.jsonl.gz
+2026-07-25 11:57:47,034 | INFO | booking-consumer | Bronze batch uploaded and offsets committed | records=6 | s3_uri=s3://data-pipeline-southwest/bronze/year=2026/month=07/day=25/hour=16/booking_events_3d642a77e8014572b54d166c761e5561.jsonl.gz | offsets={2: 2173, 3: 2161}
+2026-07-25 11:57:47,035 | INFO | booking-consumer | Final partial batch processed successfully | records=6
+2026-07-25 11:57:47,056 | INFO | booking-consumer | Kafka consumer stopped safely
+2026-07-25 12:15:12,109 | INFO | booking-producer | Southwest Kafka producer started
+2026-07-25 12:15:12,111 | INFO | booking-producer | Booking event submitted | count=1 | event_id=ea69da99-b822-4f13-a984-68bb1df473ca | booking_id=76a5fe35-a838-4d52-acce-539eb587fadd
+2026-07-25 12:15:14,112 | INFO | kafka-producer | Kafka delivery successful | topic=southwest-booking-events | partition=1 | offset=2153
+2026-07-25 12:15:14,112 | INFO | booking-producer | Booking event submitted | count=2 | event_id=20be1b3f-39c0-45fd-b0f3-adceaa51c0d1 | booking_id=5e23a099-5c35-4aef-85ed-513fa02e7fe8
+2026-07-25 12:15:16,116 | INFO | kafka-producer | Kafka delivery successful | topic=southwest-booking-events | partition=0 | offset=2304
+2026-07-25 12:15:16,117 | INFO | booking-producer | Booking event submitted | count=3 | event_id=4caf4bc2-02ad-4ceb-a61a-517c33f04945 | booking_id=86830c4f-2a62-4cd6-b3ea-458729f2abea
+2026-07-25 12:15:18,118 | INFO | kafka-producer | Kafka delivery successful | topic=southwest-booking-events | partition=2 | offset=2173
+2026-07-25 12:15:18,119 | INFO | booking-producer | Booking event submitted | count=4 | event_id=22e146d5-eb48-49aa-9355-42c3e885868e | booking_id=351f520d-270e-4105-abf0-18590481bb03
+2026-07-25 12:15:20,121 | INFO | kafka-producer | Kafka delivery successful | topic=southwest-booking-events | partition=3 | offset=2161
+2026-07-25 12:15:20,122 | INFO | booking-producer | Booking event submitted | count=5 | event_id=7db6743f-50a0-4699-945d-6f1c24fc78a2 | booking_id=0500b972-aab5-4511-bef2-40b9a2042cbd
+2026-07-25 12:15:22,129 | INFO | kafka-producer | Kafka delivery successful | topic=southwest-booking-events | partition=2 | offset=2174
+2026-07-25 12:15:22,133 | INFO | booking-producer | Booking event submitted | count=6 | event_id=1c76cdf1-7b96-4aa3-8b20-d094ed1e41fb | booking_id=6bd826bb-01d9-47dd-a649-fcd6d56daf15
+2026-07-25 12:15:24,137 | INFO | kafka-producer | Kafka delivery successful | topic=southwest-booking-events | partition=0 | offset=2305
+2026-07-25 12:15:24,138 | INFO | booking-producer | Booking event submitted | count=7 | event_id=93fa46ba-614d-4f73-b972-e3b7ccc874aa | booking_id=4185af96-04fa-4d8b-a36b-145a4000334e
+2026-07-25 12:15:26,139 | INFO | kafka-producer | Kafka delivery successful | topic=southwest-booking-events | partition=0 | offset=2306
+2026-07-25 12:15:26,140 | INFO | booking-producer | Booking event submitted | count=8 | event_id=fed285bf-220f-4718-a530-59407806d05c | booking_id=ef016660-09ad-43ba-8593-e4919c72a18c
+2026-07-25 12:15:28,142 | INFO | kafka-producer | Kafka delivery successful | topic=southwest-booking-events | partition=1 | offset=2154
+2026-07-25 12:15:28,143 | INFO | booking-producer | Booking event submitted | count=9 | event_id=c744d987-860f-45e7-a872-e1f642d95d95 | booking_id=ca9b4f61-7a0b-4e46-8c90-686aa5c88f62
+2026-07-25 12:15:30,012 | INFO | booking-producer | Producer shutdown requested
+2026-07-25 12:15:30,014 | INFO | kafka-producer | Kafka delivery successful | topic=southwest-booking-events | partition=3 | offset=2162
+2026-07-25 12:15:30,015 | INFO | booking-producer | All queued Kafka messages were delivered
+2026-07-25 12:15:30,016 | INFO | booking-producer | Kafka producer stopped
+2026-07-25 12:16:32,257 | INFO | booking-consumer | Southwest booking consumer started | topic=southwest-booking-events | batch_size=10 | s3_bucket=data-pipeline-southwest
+2026-07-25 12:16:35,441 | INFO | booking-consumer | Event collected | batch=1/10 | partition=0 | offset=2304 | event_id=20be1b3f-39c0-45fd-b0f3-adceaa51c0d1
+2026-07-25 12:16:35,441 | INFO | booking-consumer | Event collected | batch=2/10 | partition=0 | offset=2305 | event_id=1c76cdf1-7b96-4aa3-8b20-d094ed1e41fb
+2026-07-25 12:16:35,443 | INFO | booking-consumer | Event collected | batch=3/10 | partition=0 | offset=2306 | event_id=93fa46ba-614d-4f73-b972-e3b7ccc874aa
+2026-07-25 12:16:35,445 | INFO | booking-consumer | Event collected | batch=4/10 | partition=1 | offset=2153 | event_id=ea69da99-b822-4f13-a984-68bb1df473ca
+2026-07-25 12:16:35,445 | INFO | booking-consumer | Event collected | batch=5/10 | partition=1 | offset=2154 | event_id=fed285bf-220f-4718-a530-59407806d05c
+2026-07-25 12:16:35,446 | INFO | booking-consumer | Event collected | batch=6/10 | partition=2 | offset=2173 | event_id=4caf4bc2-02ad-4ceb-a61a-517c33f04945
+2026-07-25 12:16:35,448 | INFO | booking-consumer | Event collected | batch=7/10 | partition=2 | offset=2174 | event_id=7db6743f-50a0-4699-945d-6f1c24fc78a2
+2026-07-25 12:16:35,451 | INFO | booking-consumer | Event collected | batch=8/10 | partition=3 | offset=2161 | event_id=22e146d5-eb48-49aa-9355-42c3e885868e
+2026-07-25 12:16:35,452 | INFO | booking-consumer | Event collected | batch=9/10 | partition=3 | offset=2162 | event_id=c744d987-860f-45e7-a872-e1f642d95d95
+2026-07-25 12:17:08,239 | INFO | booking-consumer | Consumer shutdown requested
+2026-07-25 12:17:08,240 | INFO | booking-consumer | Processing Bronze batch | records=9
+2026-07-25 12:17:08,258 | INFO | file-writer | Bronze batch written locally | records=9 | file=data\bronze\booking_events_20260725_171708_1685bd57ec2e4d42aee89e77aa1d1181.jsonl
+2026-07-25 12:17:08,267 | INFO | file-compressor | File compressed successfully | input=data\bronze\booking_events_20260725_171708_1685bd57ec2e4d42aee89e77aa1d1181.jsonl | output=data\bronze\booking_events_20260725_171708_1685bd57ec2e4d42aee89e77aa1d1181.jsonl.gz
+2026-07-25 12:17:08,268 | INFO | booking-consumer | Bronze S3 key generated | key=bronze/year=2026/month=07/day=25/hour=17/booking_events_a72ce954e8734089805591919c8ff689.jsonl.gz
+2026-07-25 12:17:11,418 | INFO | s3-uploader | File uploaded successfully | local_file=data\bronze\booking_events_20260725_171708_1685bd57ec2e4d42aee89e77aa1d1181.jsonl.gz | s3_uri=s3://data-pipeline-southwest/bronze/year=2026/month=07/day=25/hour=17/booking_events_a72ce954e8734089805591919c8ff689.jsonl.gz
+2026-07-25 12:17:11,433 | INFO | booking-consumer | Bronze batch uploaded and offsets committed | records=9 | s3_uri=s3://data-pipeline-southwest/bronze/year=2026/month=07/day=25/hour=17/booking_events_a72ce954e8734089805591919c8ff689.jsonl.gz | offsets={0: 2307, 1: 2155, 2: 2175, 3: 2163}
+2026-07-25 12:17:11,435 | INFO | booking-consumer | Final partial batch processed successfully | records=9
+2026-07-25 12:17:11,458 | INFO | booking-consumer | Kafka consumer stopped safely
+2026-07-25 12:20:44,701 | INFO | booking-producer | Southwest Kafka producer started
+2026-07-25 12:20:44,702 | INFO | booking-producer | Booking event submitted | count=1 | event_id=80f6135a-604f-4cb3-81e9-3b667c1a7fae | booking_id=cffeef61-5dc8-4d15-98d5-bd177b0126f4
+2026-07-25 12:20:46,703 | INFO | kafka-producer | Kafka delivery successful | topic=southwest-booking-events | partition=1 | offset=2155
+2026-07-25 12:20:46,704 | INFO | booking-producer | Booking event submitted | count=2 | event_id=dc598221-5c4b-4506-8f3f-e7e1c7e633e6 | booking_id=860735d9-d658-48f2-b38b-bfa507da0fdb
+2026-07-25 12:20:48,707 | INFO | kafka-producer | Kafka delivery successful | topic=southwest-booking-events | partition=0 | offset=2307
+2026-07-25 12:20:48,708 | INFO | booking-producer | Booking event submitted | count=3 | event_id=7f0b4aef-47ec-4ada-96ab-3c6a836a25a4 | booking_id=4bae5cc7-6c21-4853-8c35-ed4a14172999
+2026-07-25 12:20:50,709 | INFO | kafka-producer | Kafka delivery successful | topic=southwest-booking-events | partition=2 | offset=2175
+2026-07-25 12:20:50,710 | INFO | booking-producer | Booking event submitted | count=4 | event_id=c941823a-c7d0-48d6-8f55-a44f857fe9b3 | booking_id=d9fdd676-69d9-44df-895a-5d92ba394cf7
+2026-07-25 12:20:52,713 | INFO | kafka-producer | Kafka delivery successful | topic=southwest-booking-events | partition=1 | offset=2156
+2026-07-25 12:20:52,714 | INFO | booking-producer | Booking event submitted | count=5 | event_id=05de04fd-4aed-4262-8dda-ad3092d8c53f | booking_id=a6cce988-333f-4e43-81c3-0ffd6574d763
+2026-07-25 12:20:54,715 | INFO | kafka-producer | Kafka delivery successful | topic=southwest-booking-events | partition=3 | offset=2163
+2026-07-25 12:20:54,716 | INFO | booking-producer | Booking event submitted | count=6 | event_id=0846578c-198c-4288-af17-d3913f2f899a | booking_id=f963c27a-5d7c-4512-9ba5-cc18d2510a35
+2026-07-25 12:20:56,718 | INFO | kafka-producer | Kafka delivery successful | topic=southwest-booking-events | partition=1 | offset=2157
+2026-07-25 12:20:56,719 | INFO | booking-producer | Booking event submitted | count=7 | event_id=01ef06d2-9da8-4bcd-ab04-2ddbd0acbe39 | booking_id=a9c94f11-3c32-4a57-b86d-f20ef0cce3e5
+2026-07-25 12:20:58,736 | INFO | kafka-producer | Kafka delivery successful | topic=southwest-booking-events | partition=0 | offset=2308
+2026-07-25 12:20:58,738 | INFO | booking-producer | Booking event submitted | count=8 | event_id=061deec4-6e27-442f-988b-e8ac8fe27278 | booking_id=77fff3c6-ecd1-48d9-80cb-1e40f01db941
+2026-07-25 12:21:00,740 | INFO | kafka-producer | Kafka delivery successful | topic=southwest-booking-events | partition=1 | offset=2158
+2026-07-25 12:21:00,740 | INFO | booking-producer | Booking event submitted | count=9 | event_id=a4343489-210e-44f7-845c-a430e82cac65 | booking_id=d6f5764c-8d9e-4b04-aab6-21a1c6ee6e0b
+2026-07-25 12:21:02,742 | INFO | kafka-producer | Kafka delivery successful | topic=southwest-booking-events | partition=1 | offset=2159
+2026-07-25 12:21:02,743 | INFO | booking-producer | Booking event submitted | count=10 | event_id=43a17e28-2b35-4823-b5f4-6d23e2805b9d | booking_id=a16297eb-cb59-4da3-a03b-91f8f38aed0a
+2026-07-25 12:21:04,745 | INFO | kafka-producer | Kafka delivery successful | topic=southwest-booking-events | partition=0 | offset=2309
+2026-07-25 12:21:04,746 | INFO | booking-producer | Booking event submitted | count=11 | event_id=e7dbeaaf-2af2-4af2-9f33-d790fd1bd6ca | booking_id=560959d3-46ac-405e-8dc7-53a04486b034
+2026-07-25 12:21:06,663 | INFO | booking-producer | Producer shutdown requested
+2026-07-25 12:21:06,664 | INFO | kafka-producer | Kafka delivery successful | topic=southwest-booking-events | partition=0 | offset=2310
+2026-07-25 12:21:06,664 | INFO | booking-producer | All queued Kafka messages were delivered
+2026-07-25 12:21:06,665 | INFO | booking-producer | Kafka producer stopped
+2026-07-25 12:21:23,072 | INFO | booking-consumer | Southwest booking consumer started | topic=southwest-booking-events | batch_size=10 | s3_bucket=data-pipeline-southwest
+2026-07-25 12:21:26,224 | INFO | booking-consumer | Event collected | batch=1/10 | partition=0 | offset=2307 | event_id=dc598221-5c4b-4506-8f3f-e7e1c7e633e6
+2026-07-25 12:21:26,225 | INFO | booking-consumer | Event collected | batch=2/10 | partition=0 | offset=2308 | event_id=01ef06d2-9da8-4bcd-ab04-2ddbd0acbe39
+2026-07-25 12:21:26,227 | INFO | booking-consumer | Event collected | batch=3/10 | partition=0 | offset=2309 | event_id=43a17e28-2b35-4823-b5f4-6d23e2805b9d
+2026-07-25 12:21:26,228 | INFO | booking-consumer | Event collected | batch=4/10 | partition=0 | offset=2310 | event_id=e7dbeaaf-2af2-4af2-9f33-d790fd1bd6ca
+2026-07-25 12:21:26,230 | INFO | booking-consumer | Event collected | batch=5/10 | partition=1 | offset=2155 | event_id=80f6135a-604f-4cb3-81e9-3b667c1a7fae
+2026-07-25 12:21:26,232 | INFO | booking-consumer | Event collected | batch=6/10 | partition=1 | offset=2156 | event_id=c941823a-c7d0-48d6-8f55-a44f857fe9b3
+2026-07-25 12:21:26,234 | INFO | booking-consumer | Event collected | batch=7/10 | partition=1 | offset=2157 | event_id=0846578c-198c-4288-af17-d3913f2f899a
+2026-07-25 12:21:26,236 | INFO | booking-consumer | Event collected | batch=8/10 | partition=1 | offset=2158 | event_id=061deec4-6e27-442f-988b-e8ac8fe27278
+2026-07-25 12:21:26,244 | INFO | booking-consumer | Event collected | batch=9/10 | partition=1 | offset=2159 | event_id=a4343489-210e-44f7-845c-a430e82cac65
+2026-07-25 12:21:26,247 | INFO | booking-consumer | Event collected | batch=10/10 | partition=2 | offset=2175 | event_id=7f0b4aef-47ec-4ada-96ab-3c6a836a25a4
+2026-07-25 12:21:26,250 | INFO | booking-consumer | Processing Bronze batch | records=10
+2026-07-25 12:21:26,262 | INFO | file-writer | Bronze batch written locally | records=10 | file=data\bronze\booking_events_20260725_172126_71471bdfb9554fb29e31342b9d988700.jsonl
+2026-07-25 12:21:26,274 | INFO | file-compressor | File compressed successfully | input=data\bronze\booking_events_20260725_172126_71471bdfb9554fb29e31342b9d988700.jsonl | output=data\bronze\booking_events_20260725_172126_71471bdfb9554fb29e31342b9d988700.jsonl.gz
+2026-07-25 12:21:26,277 | INFO | booking-consumer | Bronze S3 key generated | key=bronze/year=2026/month=07/day=25/hour=17/booking_events_3c21d9d1804445b48362b7017a8ab491.jsonl.gz
+2026-07-25 12:21:29,380 | INFO | s3-uploader | File uploaded successfully | local_file=data\bronze\booking_events_20260725_172126_71471bdfb9554fb29e31342b9d988700.jsonl.gz | s3_uri=s3://data-pipeline-southwest/bronze/year=2026/month=07/day=25/hour=17/booking_events_3c21d9d1804445b48362b7017a8ab491.jsonl.gz
+2026-07-25 12:21:29,391 | INFO | booking-consumer | Bronze batch uploaded and offsets committed | records=10 | s3_uri=s3://data-pipeline-southwest/bronze/year=2026/month=07/day=25/hour=17/booking_events_3c21d9d1804445b48362b7017a8ab491.jsonl.gz | offsets={0: 2311, 1: 2160, 2: 2176}
+2026-07-25 12:21:29,392 | INFO | booking-consumer | Event collected | batch=1/10 | partition=3 | offset=2163 | event_id=05de04fd-4aed-4262-8dda-ad3092d8c53f
+2026-07-25 12:23:09,176 | INFO | booking-consumer | Consumer shutdown requested
+2026-07-25 12:23:09,177 | INFO | booking-consumer | Processing Bronze batch | records=1
+2026-07-25 12:23:09,184 | INFO | file-writer | Bronze batch written locally | records=1 | file=data\bronze\booking_events_20260725_172309_28484c5d250a473ea82dd2003bdddb47.jsonl
+2026-07-25 12:23:09,192 | INFO | file-compressor | File compressed successfully | input=data\bronze\booking_events_20260725_172309_28484c5d250a473ea82dd2003bdddb47.jsonl | output=data\bronze\booking_events_20260725_172309_28484c5d250a473ea82dd2003bdddb47.jsonl.gz
+2026-07-25 12:23:09,194 | INFO | booking-consumer | Bronze S3 key generated | key=bronze/year=2026/month=07/day=25/hour=17/booking_events_e18d8d47fe274d019cffe70d619fe83a.jsonl.gz
+2026-07-25 12:23:11,684 | INFO | s3-uploader | File uploaded successfully | local_file=data\bronze\booking_events_20260725_172309_28484c5d250a473ea82dd2003bdddb47.jsonl.gz | s3_uri=s3://data-pipeline-southwest/bronze/year=2026/month=07/day=25/hour=17/booking_events_e18d8d47fe274d019cffe70d619fe83a.jsonl.gz
+2026-07-25 12:23:11,701 | INFO | booking-consumer | Bronze batch uploaded and offsets committed | records=1 | s3_uri=s3://data-pipeline-southwest/bronze/year=2026/month=07/day=25/hour=17/booking_events_e18d8d47fe274d019cffe70d619fe83a.jsonl.gz | offsets={3: 2164}
+2026-07-25 12:23:11,702 | INFO | booking-consumer | Final partial batch processed successfully | records=1
+2026-07-25 12:23:11,726 | INFO | booking-consumer | Kafka consumer stopped safely
+2026-07-25 12:23:23,278 | INFO | booking-producer | Southwest Kafka producer started
+2026-07-25 12:23:23,281 | INFO | booking-producer | Booking event submitted | count=1 | event_id=485653e6-e9c4-428a-b540-49c019dc88de | booking_id=7b1255ad-5847-40c5-ba3e-56169aac42ce
+2026-07-25 12:23:25,283 | INFO | kafka-producer | Kafka delivery successful | topic=southwest-booking-events | partition=0 | offset=2311
+2026-07-25 12:23:25,284 | INFO | booking-producer | Booking event submitted | count=2 | event_id=fe278ecf-2e8e-4ff4-86e0-fe2579944023 | booking_id=0453534b-83c5-4fd4-9d5c-35915da50651
+2026-07-25 12:23:27,286 | INFO | kafka-producer | Kafka delivery successful | topic=southwest-booking-events | partition=3 | offset=2164
+2026-07-25 12:23:27,286 | INFO | booking-producer | Booking event submitted | count=3 | event_id=bee0231c-930d-4eeb-9a7c-e4515219b92e | booking_id=beac7003-f9f1-4b0c-be3b-1158d4191d66
+2026-07-25 12:23:29,289 | INFO | kafka-producer | Kafka delivery successful | topic=southwest-booking-events | partition=3 | offset=2165
+2026-07-25 12:23:29,290 | INFO | booking-producer | Booking event submitted | count=4 | event_id=8591188e-df17-496a-8ed1-7ea9deddcf4f | booking_id=a5ad9f5c-21aa-4dea-a8df-9b2673419b3f
+2026-07-25 12:23:31,292 | INFO | kafka-producer | Kafka delivery successful | topic=southwest-booking-events | partition=2 | offset=2176
+2026-07-25 12:23:31,292 | INFO | booking-producer | Booking event submitted | count=5 | event_id=1ef5bc5a-a14e-4bf2-b908-e76d3573451a | booking_id=8014c8b2-b706-4c7b-8ca5-69d19d4d0706
+2026-07-25 12:23:33,294 | INFO | kafka-producer | Kafka delivery successful | topic=southwest-booking-events | partition=3 | offset=2166
+2026-07-25 12:23:33,295 | INFO | booking-producer | Booking event submitted | count=6 | event_id=9c41ebfb-6eca-4572-9b74-127d3ef67360 | booking_id=6287ca4f-9a93-4c7c-831d-aea088833682
+2026-07-25 12:23:35,296 | INFO | kafka-producer | Kafka delivery successful | topic=southwest-booking-events | partition=0 | offset=2312
+2026-07-25 12:23:35,297 | INFO | booking-producer | Booking event submitted | count=7 | event_id=a0af425b-4c38-47d2-8234-1b266ad04648 | booking_id=12f75193-8408-4c67-bee9-363ad013ceba
+2026-07-25 12:23:37,298 | INFO | kafka-producer | Kafka delivery successful | topic=southwest-booking-events | partition=3 | offset=2167
+2026-07-25 12:23:37,299 | INFO | booking-producer | Booking event submitted | count=8 | event_id=a268fcb9-2520-4b46-b60e-3f1dbcaac63d | booking_id=c9726699-ba79-4ffa-a7ee-9e0d4f8c7f1b
+2026-07-25 12:23:39,302 | INFO | kafka-producer | Kafka delivery successful | topic=southwest-booking-events | partition=2 | offset=2177
+2026-07-25 12:23:39,303 | INFO | booking-producer | Booking event submitted | count=9 | event_id=3d6f96c1-dff8-4312-a18e-2e195c998276 | booking_id=ef2fd8fc-1cfd-43f9-8387-b0178bf6ff1b
+2026-07-25 12:23:41,305 | INFO | kafka-producer | Kafka delivery successful | topic=southwest-booking-events | partition=3 | offset=2168
+2026-07-25 12:23:41,306 | INFO | booking-producer | Booking event submitted | count=10 | event_id=a0eee591-0468-4bfe-a558-4c82b69b76c2 | booking_id=952f1b5b-865a-43d0-8eb7-44cf9949ef07
+2026-07-25 12:23:43,308 | INFO | kafka-producer | Kafka delivery successful | topic=southwest-booking-events | partition=1 | offset=2160
+2026-07-25 12:23:43,308 | INFO | booking-producer | Booking event submitted | count=11 | event_id=1aefe4d8-9eee-4c5c-b6cc-4cb31c12d990 | booking_id=1708abd7-466c-4c12-a742-79149cad8a5f
+2026-07-25 12:23:45,310 | INFO | kafka-producer | Kafka delivery successful | topic=southwest-booking-events | partition=1 | offset=2161
+2026-07-25 12:23:45,311 | INFO | booking-producer | Booking event submitted | count=12 | event_id=9c266dce-ccc5-4393-90b6-ce032f8955a1 | booking_id=2b0cbd47-d00f-41c3-8863-f7e7841f4599
+2026-07-25 12:23:47,314 | INFO | kafka-producer | Kafka delivery successful | topic=southwest-booking-events | partition=3 | offset=2169
+2026-07-25 12:23:47,315 | INFO | booking-producer | Booking event submitted | count=13 | event_id=b077b927-0de2-4cbd-a07b-21d655d62402 | booking_id=633f1ac4-5d53-4f0b-abce-76c2914f9695
+2026-07-25 12:23:49,316 | INFO | kafka-producer | Kafka delivery successful | topic=southwest-booking-events | partition=0 | offset=2313
+2026-07-25 12:23:49,317 | INFO | booking-producer | Booking event submitted | count=14 | event_id=d5ab0658-6d33-47dd-948d-e65099d141c4 | booking_id=bff73d17-511f-458e-aeda-71edb0a33f0f
+2026-07-25 12:23:51,318 | INFO | kafka-producer | Kafka delivery successful | topic=southwest-booking-events | partition=2 | offset=2178
+2026-07-25 12:23:51,319 | INFO | booking-producer | Booking event submitted | count=15 | event_id=96b214b8-70cd-41e9-8a04-9896eae3d991 | booking_id=ba264a96-dee7-4b46-903e-88b6febac4bc
+2026-07-25 12:23:53,322 | INFO | kafka-producer | Kafka delivery successful | topic=southwest-booking-events | partition=3 | offset=2170
+2026-07-25 12:23:53,323 | INFO | booking-producer | Booking event submitted | count=16 | event_id=36d95148-0f0d-4259-8660-0c312be2d9cf | booking_id=4452b2c1-b26e-40e7-908d-23602068b8f7
+2026-07-25 12:23:55,325 | INFO | kafka-producer | Kafka delivery successful | topic=southwest-booking-events | partition=1 | offset=2162
+2026-07-25 12:23:55,326 | INFO | booking-producer | Booking event submitted | count=17 | event_id=981a80cb-2ef8-4238-a140-0af722f0e696 | booking_id=945a7e14-3cb7-4117-b27b-d1e1321ae69e
+2026-07-25 12:23:57,327 | INFO | kafka-producer | Kafka delivery successful | topic=southwest-booking-events | partition=3 | offset=2171
+2026-07-25 12:23:57,328 | INFO | booking-producer | Booking event submitted | count=18 | event_id=5a490749-90d2-45e8-be45-d2fc9cb39f6e | booking_id=0e6ce3ed-f6b8-4e0c-8e06-a4f64f3b8997
+2026-07-25 12:23:59,331 | INFO | kafka-producer | Kafka delivery successful | topic=southwest-booking-events | partition=1 | offset=2163
+2026-07-25 12:23:59,331 | INFO | booking-producer | Booking event submitted | count=19 | event_id=8831a80c-290d-4964-8afe-9ddfede39b43 | booking_id=2fac6afa-30f2-4302-9f17-06bb50753c7c
+2026-07-25 12:24:01,333 | INFO | kafka-producer | Kafka delivery successful | topic=southwest-booking-events | partition=0 | offset=2314
+2026-07-25 12:24:01,334 | INFO | booking-producer | Booking event submitted | count=20 | event_id=9345f684-bf6e-49dc-9d64-4b63c8a97321 | booking_id=4c7bad35-ff54-415b-9eaf-de08008a25a3
+2026-07-25 12:24:03,335 | INFO | kafka-producer | Kafka delivery successful | topic=southwest-booking-events | partition=2 | offset=2179
+2026-07-25 12:24:03,336 | INFO | booking-producer | Booking event submitted | count=21 | event_id=b0b90c95-5cef-49b8-9d94-03ecd30ca2ab | booking_id=408869ba-4a93-4a15-8484-b3ac2fc22384
+2026-07-25 12:24:04,476 | INFO | booking-producer | Producer shutdown requested
+2026-07-25 12:24:04,478 | INFO | kafka-producer | Kafka delivery successful | topic=southwest-booking-events | partition=2 | offset=2180
+2026-07-25 12:24:04,479 | INFO | booking-producer | All queued Kafka messages were delivered
+2026-07-25 12:24:04,480 | INFO | booking-producer | Kafka producer stopped
+2026-07-25 12:24:10,652 | INFO | booking-consumer | Southwest booking consumer started | topic=southwest-booking-events | batch_size=10 | s3_bucket=data-pipeline-southwest
+2026-07-25 12:24:13,799 | INFO | booking-consumer | Event collected | batch=1/10 | partition=0 | offset=2311 | event_id=485653e6-e9c4-428a-b540-49c019dc88de
+2026-07-25 12:24:13,799 | INFO | booking-consumer | Event collected | batch=2/10 | partition=0 | offset=2312 | event_id=9c41ebfb-6eca-4572-9b74-127d3ef67360
+2026-07-25 12:24:13,801 | INFO | booking-consumer | Event collected | batch=3/10 | partition=0 | offset=2313 | event_id=b077b927-0de2-4cbd-a07b-21d655d62402
+2026-07-25 12:24:13,802 | INFO | booking-consumer | Event collected | batch=4/10 | partition=0 | offset=2314 | event_id=8831a80c-290d-4964-8afe-9ddfede39b43
+2026-07-25 12:24:13,802 | INFO | booking-consumer | Event collected | batch=5/10 | partition=1 | offset=2160 | event_id=a0eee591-0468-4bfe-a558-4c82b69b76c2
+2026-07-25 12:24:13,804 | INFO | booking-consumer | Event collected | batch=6/10 | partition=1 | offset=2161 | event_id=1aefe4d8-9eee-4c5c-b6cc-4cb31c12d990
+2026-07-25 12:24:13,805 | INFO | booking-consumer | Event collected | batch=7/10 | partition=1 | offset=2162 | event_id=36d95148-0f0d-4259-8660-0c312be2d9cf
+2026-07-25 12:24:13,806 | INFO | booking-consumer | Event collected | batch=8/10 | partition=1 | offset=2163 | event_id=5a490749-90d2-45e8-be45-d2fc9cb39f6e
+2026-07-25 12:24:13,807 | INFO | booking-consumer | Event collected | batch=9/10 | partition=2 | offset=2176 | event_id=8591188e-df17-496a-8ed1-7ea9deddcf4f
+2026-07-25 12:24:13,808 | INFO | booking-consumer | Event collected | batch=10/10 | partition=2 | offset=2177 | event_id=a268fcb9-2520-4b46-b60e-3f1dbcaac63d
+2026-07-25 12:24:13,808 | INFO | booking-consumer | Processing Bronze batch | records=10
+2026-07-25 12:24:13,813 | INFO | file-writer | Bronze batch written locally | records=10 | file=data\bronze\booking_events_20260725_172413_902add8f35714fad9385401fbfb7260a.jsonl
+2026-07-25 12:24:13,821 | INFO | file-compressor | File compressed successfully | input=data\bronze\booking_events_20260725_172413_902add8f35714fad9385401fbfb7260a.jsonl | output=data\bronze\booking_events_20260725_172413_902add8f35714fad9385401fbfb7260a.jsonl.gz
+2026-07-25 12:24:13,822 | INFO | booking-consumer | Bronze S3 key generated | key=bronze/year=2026/month=07/day=25/hour=17/booking_events_c24c2900900546d5933336c3389d2317.jsonl.gz
+2026-07-25 12:24:16,439 | INFO | s3-uploader | File uploaded successfully | local_file=data\bronze\booking_events_20260725_172413_902add8f35714fad9385401fbfb7260a.jsonl.gz | s3_uri=s3://data-pipeline-southwest/bronze/year=2026/month=07/day=25/hour=17/booking_events_c24c2900900546d5933336c3389d2317.jsonl.gz
+2026-07-25 12:24:16,455 | INFO | booking-consumer | Bronze batch uploaded and offsets committed | records=10 | s3_uri=s3://data-pipeline-southwest/bronze/year=2026/month=07/day=25/hour=17/booking_events_c24c2900900546d5933336c3389d2317.jsonl.gz | offsets={0: 2315, 1: 2164, 2: 2178}
+2026-07-25 12:24:16,457 | INFO | booking-consumer | Event collected | batch=1/10 | partition=2 | offset=2178 | event_id=d5ab0658-6d33-47dd-948d-e65099d141c4
+2026-07-25 12:24:16,457 | INFO | booking-consumer | Event collected | batch=2/10 | partition=2 | offset=2179 | event_id=9345f684-bf6e-49dc-9d64-4b63c8a97321
+2026-07-25 12:24:16,458 | INFO | booking-consumer | Event collected | batch=3/10 | partition=2 | offset=2180 | event_id=b0b90c95-5cef-49b8-9d94-03ecd30ca2ab
+2026-07-25 12:24:16,459 | INFO | booking-consumer | Event collected | batch=4/10 | partition=3 | offset=2164 | event_id=fe278ecf-2e8e-4ff4-86e0-fe2579944023
+2026-07-25 12:24:16,460 | INFO | booking-consumer | Event collected | batch=5/10 | partition=3 | offset=2165 | event_id=bee0231c-930d-4eeb-9a7c-e4515219b92e
+2026-07-25 12:24:16,461 | INFO | booking-consumer | Event collected | batch=6/10 | partition=3 | offset=2166 | event_id=1ef5bc5a-a14e-4bf2-b908-e76d3573451a
+2026-07-25 12:24:16,463 | INFO | booking-consumer | Event collected | batch=7/10 | partition=3 | offset=2167 | event_id=a0af425b-4c38-47d2-8234-1b266ad04648
+2026-07-25 12:24:16,464 | INFO | booking-consumer | Event collected | batch=8/10 | partition=3 | offset=2168 | event_id=3d6f96c1-dff8-4312-a18e-2e195c998276
+2026-07-25 12:24:16,465 | INFO | booking-consumer | Event collected | batch=9/10 | partition=3 | offset=2169 | event_id=9c266dce-ccc5-4393-90b6-ce032f8955a1
+2026-07-25 12:24:16,466 | INFO | booking-consumer | Event collected | batch=10/10 | partition=3 | offset=2170 | event_id=96b214b8-70cd-41e9-8a04-9896eae3d991
+2026-07-25 12:24:16,468 | INFO | booking-consumer | Processing Bronze batch | records=10
+2026-07-25 12:24:16,474 | INFO | file-writer | Bronze batch written locally | records=10 | file=data\bronze\booking_events_20260725_172416_3b6b3799301943f187214e1e4eaea70f.jsonl
+2026-07-25 12:24:16,498 | INFO | file-compressor | File compressed successfully | input=data\bronze\booking_events_20260725_172416_3b6b3799301943f187214e1e4eaea70f.jsonl | output=data\bronze\booking_events_20260725_172416_3b6b3799301943f187214e1e4eaea70f.jsonl.gz
+2026-07-25 12:24:16,499 | INFO | booking-consumer | Bronze S3 key generated | key=bronze/year=2026/month=07/day=25/hour=17/booking_events_11152b73698f4a52b818e8483e1aa2ef.jsonl.gz
+2026-07-25 12:24:18,791 | INFO | s3-uploader | File uploaded successfully | local_file=data\bronze\booking_events_20260725_172416_3b6b3799301943f187214e1e4eaea70f.jsonl.gz | s3_uri=s3://data-pipeline-southwest/bronze/year=2026/month=07/day=25/hour=17/booking_events_11152b73698f4a52b818e8483e1aa2ef.jsonl.gz
+2026-07-25 12:24:18,800 | INFO | booking-consumer | Bronze batch uploaded and offsets committed | records=10 | s3_uri=s3://data-pipeline-southwest/bronze/year=2026/month=07/day=25/hour=17/booking_events_11152b73698f4a52b818e8483e1aa2ef.jsonl.gz | offsets={2: 2181, 3: 2171}
+2026-07-25 12:24:18,801 | INFO | booking-consumer | Event collected | batch=1/10 | partition=3 | offset=2171 | event_id=981a80cb-2ef8-4238-a140-0af722f0e696
+2026-07-25 14:12:44,044 | INFO | booking-consumer | Consumer shutdown requested
+2026-07-25 14:12:44,058 | INFO | booking-consumer | Processing Bronze batch | records=1
+2026-07-25 14:12:44,077 | INFO | file-writer | Bronze batch written locally | records=1 | file=data\bronze\booking_events_20260725_191244_124e6c26421f49518a61a45ec5b2c4cc.jsonl
+2026-07-25 14:12:44,090 | INFO | file-compressor | File compressed successfully | input=data\bronze\booking_events_20260725_191244_124e6c26421f49518a61a45ec5b2c4cc.jsonl | output=data\bronze\booking_events_20260725_191244_124e6c26421f49518a61a45ec5b2c4cc.jsonl.gz
+2026-07-25 14:12:44,092 | INFO | booking-consumer | Bronze S3 key generated | key=bronze/year=2026/month=07/day=25/hour=19/booking_events_7a2c0522f1794e6a842e6219afdb959d.jsonl.gz
+2026-07-25 14:12:46,756 | INFO | s3-uploader | File uploaded successfully | local_file=data\bronze\booking_events_20260725_191244_124e6c26421f49518a61a45ec5b2c4cc.jsonl.gz | s3_uri=s3://data-pipeline-southwest/bronze/year=2026/month=07/day=25/hour=19/booking_events_7a2c0522f1794e6a842e6219afdb959d.jsonl.gz
+2026-07-25 14:12:46,867 | INFO | booking-consumer | Bronze batch uploaded and offsets committed | records=1 | s3_uri=s3://data-pipeline-southwest/bronze/year=2026/month=07/day=25/hour=19/booking_events_7a2c0522f1794e6a842e6219afdb959d.jsonl.gz | offsets={3: 2172}
+2026-07-25 14:12:46,868 | INFO | booking-consumer | Final partial batch processed successfully | records=1
+2026-07-25 14:12:46,923 | INFO | booking-consumer | Kafka consumer stopped safely
+2026-07-25 14:12:57,425 | INFO | booking-producer | Southwest Kafka producer started
+2026-07-25 14:12:57,427 | INFO | booking-producer | Booking event submitted | count=1 | event_id=ff921d6a-dfe0-4a6f-9d4f-7138581a177b | booking_id=641e5cda-3ea5-42f1-99a6-0a057624c2dc
+2026-07-25 14:12:59,428 | INFO | kafka-producer | Kafka delivery successful | topic=southwest-booking-events | partition=1 | offset=2164
+2026-07-25 14:12:59,429 | INFO | booking-producer | Booking event submitted | count=2 | event_id=5aaeb017-6e38-42f3-812b-ffd8fdf8d083 | booking_id=f730cf89-927a-4175-a4e9-fbccc6f2dae5
+2026-07-25 14:13:01,431 | INFO | kafka-producer | Kafka delivery successful | topic=southwest-booking-events | partition=3 | offset=2172
+2026-07-25 14:13:01,432 | INFO | booking-producer | Booking event submitted | count=3 | event_id=1f0eb9c0-b8f8-4225-9516-26d7e831455b | booking_id=7ad32071-12ae-47eb-9754-376d9d4e6a66
+2026-07-25 14:13:03,436 | INFO | kafka-producer | Kafka delivery successful | topic=southwest-booking-events | partition=1 | offset=2165
+2026-07-25 14:13:03,437 | INFO | booking-producer | Booking event submitted | count=4 | event_id=9d70c789-aa7e-44c0-84df-651c6c32a88d | booking_id=884b862e-ea6a-472e-9eaf-cd147f250acb
+2026-07-25 14:13:05,439 | INFO | kafka-producer | Kafka delivery successful | topic=southwest-booking-events | partition=1 | offset=2166
+2026-07-25 14:13:05,440 | INFO | booking-producer | Booking event submitted | count=5 | event_id=0d2bfb65-507d-4405-8235-26abf7c59667 | booking_id=50b454d4-4bce-4d1e-ac2f-9d489e9e908e
+2026-07-25 14:13:06,522 | INFO | booking-producer | Producer shutdown requested
+2026-07-25 14:13:06,524 | INFO | kafka-producer | Kafka delivery successful | topic=southwest-booking-events | partition=1 | offset=2167
+2026-07-25 14:13:06,525 | INFO | booking-producer | All queued Kafka messages were delivered
+2026-07-25 14:13:06,526 | INFO | booking-producer | Kafka producer stopped
+2026-07-25 14:13:11,690 | INFO | booking-consumer | Southwest booking consumer started | topic=southwest-booking-events | batch_size=10 | s3_bucket=data-pipeline-southwest
+2026-07-25 14:13:14,861 | INFO | booking-consumer | Event collected | batch=1/10 | partition=1 | offset=2164 | event_id=ff921d6a-dfe0-4a6f-9d4f-7138581a177b
+2026-07-25 14:13:14,862 | INFO | booking-consumer | Event collected | batch=2/10 | partition=1 | offset=2165 | event_id=1f0eb9c0-b8f8-4225-9516-26d7e831455b
+2026-07-25 14:13:14,863 | INFO | booking-consumer | Event collected | batch=3/10 | partition=1 | offset=2166 | event_id=9d70c789-aa7e-44c0-84df-651c6c32a88d
+2026-07-25 14:13:14,863 | INFO | booking-consumer | Event collected | batch=4/10 | partition=1 | offset=2167 | event_id=0d2bfb65-507d-4405-8235-26abf7c59667
+2026-07-25 14:13:14,864 | INFO | booking-consumer | Event collected | batch=5/10 | partition=3 | offset=2172 | event_id=5aaeb017-6e38-42f3-812b-ffd8fdf8d083
+2026-07-25 14:16:20,755 | INFO | booking-consumer | Consumer shutdown requested
+2026-07-25 14:16:20,757 | INFO | booking-consumer | Processing Bronze batch | records=5
+2026-07-25 14:16:20,762 | INFO | file-writer | Bronze batch written locally | records=5 | file=data\bronze\booking_events_20260725_191620_490621553fb34c5e8fcfe202a4d71875.jsonl
+2026-07-25 14:16:20,769 | INFO | file-compressor | File compressed successfully | input=data\bronze\booking_events_20260725_191620_490621553fb34c5e8fcfe202a4d71875.jsonl | output=data\bronze\booking_events_20260725_191620_490621553fb34c5e8fcfe202a4d71875.jsonl.gz
+2026-07-25 14:16:20,771 | INFO | booking-consumer | Bronze S3 key generated | key=bronze/year=2026/month=07/day=25/hour=19/booking_events_5af7a68f56e74bfb811e88e8f12db2a1.jsonl.gz
+2026-07-25 14:16:23,817 | INFO | s3-uploader | File uploaded successfully | local_file=data\bronze\booking_events_20260725_191620_490621553fb34c5e8fcfe202a4d71875.jsonl.gz | s3_uri=s3://data-pipeline-southwest/bronze/year=2026/month=07/day=25/hour=19/booking_events_5af7a68f56e74bfb811e88e8f12db2a1.jsonl.gz
+2026-07-25 14:16:23,852 | INFO | booking-consumer | Bronze batch uploaded and offsets committed | records=5 | s3_uri=s3://data-pipeline-southwest/bronze/year=2026/month=07/day=25/hour=19/booking_events_5af7a68f56e74bfb811e88e8f12db2a1.jsonl.gz | offsets={1: 2168, 3: 2173}
+2026-07-25 14:16:23,854 | INFO | booking-consumer | Final partial batch processed successfully | records=5
+2026-07-25 14:16:23,887 | INFO | booking-consumer | Kafka consumer stopped safely

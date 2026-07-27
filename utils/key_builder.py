@@ -1,7 +1,6 @@
 from datetime import datetime, timezone
 from uuid import uuid4
 
-
 def create_bronze_s3_key() -> str:
     """
     Create a unique, time-partitioned S3 object key

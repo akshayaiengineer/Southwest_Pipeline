@@ -5,7 +5,6 @@ from utils.logger import get_logger
 
 logger = get_logger("s3-uploader")
 
-
 def upload_file_to_s3(
     local_file_path: str,
     bucket_name: str,
